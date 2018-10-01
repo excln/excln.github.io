@@ -1,0 +1,36 @@
+
+table.difficulty{
+  width: 98%;
+}
+
+table.difficulty th{
+  padding: 6px;
+}
+
+table.difficulty td{
+  padding: 4px;
+}
+
+table.difficulty tr.line1{
+  background-color: #eeeeee;
+}
+
+table.difficulty tr.line2{
+}
+
+span.normal{
+  color: #666666;
+}
+
+span.lndifficulty{
+  color: #ff3333;
+}
+
+span.lnoverjoy{
+  color: #ff3333;
+}
+
+span.ondodifficulty{
+  color: #ff3333;
+}
+

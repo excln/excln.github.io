@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel=STYLESHEET type="text/css" href="document.css">
+<title>Lazy Notes</title>
+</head>
+<body>
+
+<div id="outer">
+
+<div id="header">
+  <a href="./" class="title">Lazy Notes</a>
+  <div id="menu">
+    <ul>
+      <li><a href="bms.html">BMS</a></li>
+      <li><a href="sabun.html">BMS-SABUN</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="soft.html">SOFTWARE</a></li>
+      <li><a href="other.html">OTHER</a></li>
+      <li><a href="link.html">LINK</a></li>
+      <li><a href="http://excln.hatenablog.com/">BLOG</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="inner">
+
+<h2><img src="images/soft/bmsone_icon32.png"></img>BmsONE</h2>
+
+<ul class="lang-select">
+  <li class="selected"><span>日本語</span></li>
+  <li><a href="bmsone_en.html">English</a></li>
+</ul>
+
+<h3>ダウンロード (beta 0.2.1)</h3>
+<ul class="downloadlist">
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KYnVkSUFMZGpfU1E">Windows (32bit)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KeTVkczA3UEZKNVU">Windows (64bit)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQzlGTUlLSEc5WkU">Mac</a></li>
+</ul>
+
+<div class="notice">
+「MSVCP140.dll が見つかりません」というようなエラーが発生した場合は、<a href="https://www.microsoft.com/ja-JP/download/details.aspx?id=48145">Visual Studio 2015 の Visual C++ 再頒布可能パッケージ</a>をインストールしてください。（BmsONEのバージョンに応じて x86 または x64 を選択してください）
+</div>
+
+<h3>1. 概要</h3>
+
+<p>
+BmsONE は新しい音楽ゲームフォーマットである bmson ファイルを編集するためのアプリケーションです。
+bmson フォーマットについての情報は、<a href="#links">参考リンク</a> をご覧ください。
+</p>
+<p>
+現在、v1.0 および v0.21 の bmson ファイルに対応しています。
+ただし、一部の情報はまだ編集することができません。
+</p>
+
+<h3>2. 使い方</h3>
+
+<h4>2.1 注意</h4>
+
+<p>
+このソフトは開発途上のため、機能が不十分であったり、不安定な動作をすることがあります。
+Mac版は特に頻繁にクラッシュすることがあるので気を付けてください。
+Bmson 制作時にはこまめにセーブすることをお勧めします。
+また、編集する bmson ファイル（念のため音声ファイルも）はバックアップを取っておきましょう。
+</p>
+<p>
+また、以下の説明でCtrlキーといっている箇所は、Mac版ではCommandキー(⌘)のことを意味します。
+</p>
+
+<h4>2.2 音声チャンネルの追加</h4>
+
+<p>
+[チャンネル] → [追加] で使用する音声ファイルを選択します（Wav、Ogg Vorbis に対応しています）。
+あるいは、音声ファイルをウィンドウ内にドラッグ＆ドロップすることでもチャンネルを追加できます。
+</p>
+
+<h4>2.3 音声ノーツの配置</h4>
+
+<p>
+このソフトには「編集モード」と「書込モード」の2つのモードがあり、
+これらを使い分けることで効率よく譜面を作成することができます。
+</p>
+<p>
+音声ノーツを配置するためには、まずは鉛筆のアイコンをクリックして「書込モード」にしてください。
+次に、ノーツを配置したい音声チャンネルを選択します。
+シーケンス表示部には各チャンネルに対応したBGMレーンが並んでおり、選択中の列が明るく表示されます。
+暗くなっている列をクリックするとそのチャンネルを選択できます。
+Bmsonには「音を最初から再生するノート」と「その部分で音をスライスするノート」の2種類のノートがあり、
+[Shift+クリック] すると前者を、単に [クリック] すると後者を配置できます。
+（音が鳴っていない部分にスライスノートを配置すると無音ノートとなります。）
+また、既存のノートを右クリックすると削除されます。
+</p>
+<p>
+BGMレーンの背景に波形が表示されていることにお気づきでしょう。
+緑色の波形はその部分がBGMレーンのノートで鳴ることを、橙色はキー音として鳴ることを表します。
+</p>
+<p>
+「編集モード」では、ノーツを範囲選択したりドラッグで横移動させたりすることができます。
+また、選択したノーツ上で右クリックし、「BGM(キー)レーンに移動」を選択すると
+キー音レーン上のノーツをBGMレーンに移動、あるいはその逆ができます。
+Shiftキーを押しながらノーツをドラッグすると、ノートの長さを変更できます。
+通常のノートは長さ0なので、ロングノートを解除したい場合は限界まで長さを短くしてください。
+</p>
+<p>
+「編集モード」での範囲選択は、Ctrl、Alt、Shiftキーを組み合わせることで振る舞いが変わります。
+例えば、Altキーを押しながら範囲選択すると選択中のチャンネルのノーツだけを選択できます。
+</p>
+<p>
+譜面またはBGMレーン上で [Alt+右クリック]、あるいはノーツまたはBGMレーン上で [中央ボタンクリック]
+すると、クリックしている間だけ現在の音声チャンネルのその時点での音声をプレビューできます。
+（Macでは Controlキー（Commandキーではない）+クリックで右クリックの代わりになります。）
+マスターレーン上でクリックすると、クリックしている間だけ曲全体をプレビューできます。
+これらのプレビュー中にCtrlキーを押すと、再生位置に従って譜面が自動でスクロールします。
+</p>
+
+<h4>2.4 その他</h4>
+
+<p>
+[情報] ウィンドウでは曲の基本情報を入力できます。
+初期BPMはノーツの配置時の操作性に影響するので最初に設定しておきましょう。
+</p>
+<p>
+小節線はシーケンス表示部の左端にある、小節番号が表示されている部分を [Ctrl+クリック] することで
+編集できます。小節番号が灰色の小節線は4拍子で自動挿入された一時的なものであり、他の小節線を
+挿入したり削除した際に変化することがあります。
+</p>
+<p>
+BPMイベントは小節番号の隣のレーンをクリックすることで編集できます。
+BPMイベントを配置または選択すると、BPMを入力するための小さなツールバーが現れます。
+</p>
+<p>
+BGAデータや他の拡張データの多くはまだ編集できませんが、未対応のデータを持つファイルを
+このアプリケーションで編集してもデータは保持されます。
+なお、「情報」（bmsonフォーマットの BMSInfo 部分）の拡張データは「拡張情報」欄で
+次のようにJSONの断片を直接入力することで編集できます。
+</p>
+<pre>
+  &quot;updated_at&quot;: &quot;14:00 2015/11/14&quot;,
+  &quot;registered_with&quot;: &quot;The Forgetalia&quot;
+</pre>
+<p>
+設定ファイルが次のようなディレクトリに保存されます。
+ウィンドウの位置がおかしくなってしまった場合は削除してみてください。
+  <div>[Windows] C:\Users\<i>&lt;USER&gt;</i>\AppData\Local\BmsONE</div>
+  <div>[Mac OS X] ~/Library/Preferences/BmsONE</div>
+</p>
+<p>
+画面のスクロール時に頻繁にクラッシュする場合は、 [表示] - [音声チャンネルのレーン表示] - [シンプル]
+を選択してみてください。チャンネルごとの波形は表示されなくなりますが、安定性が向上します。
+</p>
+<p>
+音声チャンネルがたくさんあるbmsonの譜面編集が大変に感じたら、以下のことを試してみてください。
+ <ul>
+  <li>[表示] - [音声チャンネルのレーン表示] - [コンパクト] または [シンプル] を選択してレーンを細くする。</li>
+  <li>[チャンネル] - [検索] - [活性チャンネルのみ] および [検索結果のみ表示] を選択し、
+    近くで演奏されているチャンネルのレーンのみ画面に表示されるようにする。</li>
+ </ul>
+</p>
+
+<h3>3. 免責事項・使用条件</h3>
+
+<p>
+BmsONE の作者である exclusion はこのソフトを使用して生じたいかなる損害の責任も負いません。
+また、このソフトを用い、音楽CDやゲーム等から抜き出したデータを使った違法な bmson データを
+作成することを禁止します。
+このソフトの再配布はアーカイブの内容を改変せず無償の場合に許可します。
+</p>
+<p>
+このソフトは Qt をLGPLライセンスで使用しています。
+同梱されているdllファイル（Mac版はapp内のFramework、PlugIn等）の類は Qt のものですので、
+異なる版の Qt と差し替えて利用しても構いません。ビルド設定の情報は次項を参照してください。
+</p>
+<p>
+不明な点がございましたらご連絡ください。
+</p>
+
+<h3>4. 開発環境</h3>
+
+<b>[Windows版]</b>
+<ul>
+<li>Windows 10 Pro</li>
+<li>Desktop Qt 5.9.1 MSVC2015 OpenGL 32bit/64bit</li>
+</ul>
+
+<b>[Mac版]</b>
+<ul>
+<li>Mac OS X 10.10.5</li>
+<li>Desktop Qt 5.9.0 clang 64bit</li>
+</ul>
+
+<b>[共通]</b>
+<ul>
+<li>Xiph.org 様の libogg 1.3.2、libvorbis 1.3.5 を使用しています。</li>
+</ul>
+
+
+<h3>5. 連絡先</h3>
+
+<b>exclusion</b>
+<ul>
+<li>Twitter: <a href="http://twitter.com/excln">@excln</a></li>
+<li>E-mail:  <u>exclusion_bms◆yahoo.co.jp</u></li>
+<li>Web:     <a href="http://sky.geocities.jp/exclusion_bms/">http://sky.geocities.jp/exclusion_bms/</a></li>
+</ul>
+
+<p>
+GitHubのソースコードリポジトリ: <a href="https://github.com/excln/BmsONE">https://github.com/excln/BmsONE</a>
+</p>
+<p>
+バグ報告などについてはこちらのIssuesに投げていただけるとありがたいです。（日本語でも可）
+ご自身での修正が可能な場合、リポジトリをForkして修正し、
+Pull Requestを作成していただいても構いません。
+</p>
+
+<a name="links"></a>
+<h3>6. 参考リンク</h3>
+
+<ul>
+<li><div><a href="https://bmson.nekokan.dyndns.info/">bmson / Bemuse Project (wosderge様)</a></div>
+  bmsonフォーマットの公式サイトです。
+</li>
+<li><div><a href="http://www40.atwiki.jp/laser_bm/pages/110.html">BMSまとめ @wiki - how to bmson</a></div>
+  bmsonの作り方とプレイ方法が書かれています。（日本語）
+</li>
+<li><div><a href="http://bmson-spec.readthedocs.io/en/master/">bmson specs (flicknote様)</a></div>
+  bmsonフォーマットの仕様案と詳細な解説が書かれています。（英語）
+  次期仕様を話し合うための場なので、各種ソフトが対応していない要素が含まれます。
+  興味のある方はぜひコメント等を書き込んでみてください。
+</li>
+<li><div><a href="https://docs.google.com/document/d/1gQKPWApeL03aO09-II7slxTeuvm3HO_FmY1D4chRvOQ/edit">#bmson Creation Notes (ドルフィン様)</a></div>
+  DAWの音声書き出しからエディタの使い方まで、bmson制作の一連の流れについて解説されています。（英語）
+</li>
+<li><div><a href="https://docs.google.com/document/d/178FvK-rVAcc-ZK5ls6gnMmaIphFmwF78JWIL8kRiGXA/edit#">BmsONE 101 - The Basics (ドルフィン様)</a></div>
+  BmsONEの使い方についての解説があります。（英語）
+</li>
+</ul>
+
+<h3>7. 履歴</h3>
+
+<h4>2017年09月23日 beta 0.2.1
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KYnVkSUFMZGpfU1E"><img src="images/icon/dl2.png">Windows (32bit)</a><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KeTVkczA3UEZKNVU"><img src="images/icon/dl2.png">Windows (64bit)</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQzlGTUlLSEc5WkU"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>GitHubにソースコードを公開した。</li>
+  <li>Windowsでも64bit版の提供を開始した。</li>
+  <li>特にMac版で譜面スクロール時に頻繁にクラッシュするバグを修正した。</li>
+  <li>ファイル名のパストラバーサル検出に関する挙動を修正した。</li>
+  <li>書込モードで右クリックによりノートを削除するとクラッシュするバグ問題を修正した。</li>
+  <li>譜面スクロール時のパフォーマンスを改善した。</li>
+  <li>波形表示が更新されない問題を改善した。</li>
+  <li>BPMイベントなどを挿入しても「選択オブジェクト」ウィンドウが表示されない場合があるのを修正した。</li>
+  <li>BPMイベントの挿入をアンドゥするとクラッシュする場合があるバグを修正した。</li>
+  <li>グリッド設定機能を実装した。</li>
+  <li>24bit・32bitのWAVファイルに対応した。</li>
+  <li>BMSファイルのインポート機能を実装した。</li>
+  <li>キーボードモード（24keyなど）に対応した。</li>
+</ul>
+
+<h4>2017年02月12日 beta 0.1.5
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KTzJfV0tBRzFOY0E"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KZEl4Mk5WTjdLbTQ"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>bmson 1.0.0の仕様のうち、「情報」ウィンドウで未対応だったタイトル画像(title_image)とプレビュー音(preview_music)を編集できるようにした。</li>
+  <li>UIフォントを変更できるようにした。また、Windows版のデフォルトフォントを変更した。</li>
+  <li>音声チャンネルのプレビューでBPM変化がある場合に落ちるバグを修正した。</li>
+  <li>一度に複数のBPMイベントを変更すると落ちるバグを修正した。</li>
+  <li>音声ノートとBPMイベントごとの拡張情報を編集できるようにした。</li>
+  <li>シーケンスビューの音声チャンネル(BGM)レーンの表示モードとして、「コンパクト」と「シンプル」を選べるようにした。</li>
+  <li>チャンネル検索機能を強化し、活性状態への絞り込み、ヒットしたチャンネルだけ表示できるようにした。</li>
+  <li>曲のWAV書き出し機能を実装した。</li>
+</ul>
+
+<h4>2016年12月25日 beta 0.1.4
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KSjdZZFpGeC03VjA"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KckM3bUotWllGSjA"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>パスにスペースを含む外部ビューワを起動できない問題を修正した。</li>
+  <li>選択ノーツを「BGMレーンに移動」「演奏レーンに移動」に関するバグを修正した。</li>
+  <li>編集モードでのマウスカーソルの当たり判定に対する「グリッドにスナップ」の影響を変更した。</li>
+  <li>シーケンスビューの表示を微修正した。</li>
+  <li>ノーツが重なるような移動を禁止するのではなく警告を表示するようにした。</li>
+  <li>ノーツの重なりがレイヤーノートと見なせる場合はレイヤーノートとして編集できるようにした。</li>
+  <li>数字キーで選択ノーツを特定のレーンに移動できるようにした。</li>
+  <li>BMSONファイルが小さくなるような「Compact」保存形式を選択できるようにした。</li>
+  <li>高DPIディスプレイ用の仮対応を行った。</li>
+</ul>
+
+<h4>2016年12月11日 beta 0.1.3
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQ1dUbFN5bGlrS0E"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KM0dXRFBNSjhPUE0"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>ミニマップ上でプレビューできるようにした。</li>
+  <li>マスターレーン/ミニマップの波形表示が左右逆なのを修正した。</li>
+  <li>音声チャンネル情報ウィンドウの波形表示を変更した。</li>
+  <li>ドキュメントを開く際のメモリリークを修正した。</li>
+  <li>選択ノーツをダブルクリックでキー/BGM切り替えできるようにした。</li>
+  <li>書込モードでノート配置の際ドラッグでLNを入力できるようにした。</li>
+  <li>Generic 6,7 Keys およびプレーン表示モードを追加した。</li>
+  <li>外部ビューワの呼び出し機能を実装した。</li>
+  <li>ノーツ編集時にマスターキャッシュが正しく更新されない場合があるバグを修正した。</li>
+  <li>UIの軽微なバグ修正と改善。</li>
+</ul>
+
+<h4>2016年09月06日 beta 0.1.2
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KTlZpUXdSbHZEdGc/view?usp=sharing"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KdGZMbUlNODdqQjg/view?usp=sharing"><img src="images/icon/dl2.png">Mac</a>)</h4>
+<ul>
+  <li>Circular Rhythm 用の表示モードを追加した。</li>
+  <li>非アクティブなチャンネルを暗くするかどうかの設定を追加した。</li>
+  <li>チャンネルプレビュー時の自動スクロール機能の実装、表示性能を改善した。</li>
+  <li>ノートプレビューの最大の長さを設定できるようにした。</li>
+  <li>音声チャンネルの検索機能を実装した。</li>
+  <li>情報の「モード」の欄を主な候補から選べるようにし、表示モードも自動で切り替えるようにした。</li>
+</ul>
+
+<h4>2015年11月20日 beta 0.1.1
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KOTE1cEliV28zaHM/view?usp=sharing"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KZEFLMXh6cU9MQVk/view?usp=sharing"><img src="images/icon/dl2.png">Mac</a>)</h4>
+<ul>
+  <li>新規作成によって作ったドキュメントにバージョン情報が含まれないバグを修正した。</li>
+  <li>音声ノーツの編集時マスターキャッシュが不必要に更新される問題を修正した。</li>
+</ul>
+
+<h4>2015年11月14日 beta 0.1.0
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KS3A5ZGlsZzhReTQ/view?usp=sharing"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KZjVTS3RBQ0YwaTg/view?usp=sharing"><img src="images/icon/dl2.png"></img>Mac</a>)
+</h4>
+<ul>
+  <li>スクラッチ位置の変更など、表示モードの機能を改善した。</li>
+  <li>マスターキャッシュ、マスターレーン、ミニマップを実装した。</li>
+  <li>Bmson v1.0 形式で導入されたデータの編集に対応した。</li>
+</ul>
+
+<h4>2015年11月04日 alpha 0.0.6
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2Kb2hDREg3NUI5alk/view?usp=sharing"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KaVRJODh4LXJvRVE/view?usp=sharing"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li>Macで環境によっては ogg ファイルの読み込み時にクラッシュする問題を修正した。</li>
+  <li>Macで譜面スクロール時などに頻繁にクラッシュする問題を改善した。</li>
+  <li>音声チャンネルに配置された音声のプレビュー機能を実装した。</li>
+  <li>Bmson v1.0 形式の入出力に関する暫定的な対応を行った。</li>
+  <li>7鍵盤以外の表示モードへの暫定的な対応を行った。</li>
+  <li>言語などを変更できる設定画面を追加した。</li>
+  <li>ノーツの移動時等にショートカットキーが動作しないようにした。</li>
+</ul>
+
+<h4>2015年10月17日 alpha 0.0.5
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KWnNlMHJNNHAxRnM/view?usp=sharing"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KVC1vRTFUVUdUeTg/view?usp=sharing"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li>「元に戻す」「やり直し」を実装した。</li>
+  <li>編集モードを新たに追加し、ノーツの移動やLNの編集が可能になった。</li>
+  <li>選択したオブジェクトをまとめて削除したり、キー音レーン・BGMレーン間を移動できるようになった。</li>
+  <li>情報・チャンネルビューのUIを少々変更した。</li>
+  <li>いくつかの軽微なバグ修正とパフォーマンス改善を行った。</li>
+</ul>
+
+<h4>2015年09月27日 alpha 0.0.4
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a004_20150927.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a004_20150927.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> BGMレーンのノートをプレビューした時におかしくなるバグを修正した。</li>
+  <li> 拡張情報や音声ファイル名にもユニコード文字が使えるようになった。</li>
+  <li> EXEファイルへのD&amp;Dでファイルを開けるようになった。（Windowsのみ）</li>
+</ul>
+
+<h4>2015年09月26日 alpha 0.0.3
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a003_20150926.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a003_20150926.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> Qt をバージョン 5.4.1 から 5.5.0 にアップグレードした。 </li>
+  <li> ステータスバーなどのUI要素を実装した。 </li>
+  <li> Macでクラッシュする主な要因を修正した。 </li>
+  <li> 小節線とBPMイベントが編集可能になった。 </li>
+  <li> BGAなどの未対応のデータが消えてしまわないようにした。 </li>
+  <li> 波形表示のバグを大方修正した。 </li>
+  <li> 設定ファイルにウィンドウの位置などの情報を記録するようにした。 </li>
+</ul>
+
+<h4>2015年09月17日 alpha 0.0.2
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a002_20150917.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a002_20150917.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+
+<h4>2015年09月12日 alpha 0.0.1</h4>
+
+</div><!-- #inner -->
+
+<div id="footer">
+  <div class="copyright">
+    Copyright &copy; 2011-2017 exclusion All Rights Reserved.
+  </div>
+</div>
+
+</div><!-- #outer -->
+
+</body>
+</html>

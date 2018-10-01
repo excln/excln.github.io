@@ -1,0 +1,389 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel=STYLESHEET type="text/css" href="document.css">
+<title>Lazy Notes</title>
+</head>
+<body>
+
+<div id="outer">
+
+<div id="header">
+  <a href="./" class="title">Lazy Notes</a>
+  <div id="menu">
+    <ul>
+      <li><a href="bms.html">BMS</a></li>
+      <li><a href="sabun.html">BMS-SABUN</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="soft.html">SOFTWARE</a></li>
+      <li><a href="other.html">OTHER</a></li>
+      <li><a href="link.html">LINK</a></li>
+      <li><a href="http://excln.hatenablog.com/">BLOG</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="inner">
+
+<h2><img src="images/soft/bmsone_icon32.png"></img>BmsONE</h2>
+
+<ul class="lang-select">
+  <li><a href="bmsone.html">日本語</a></li>
+  <li class="selected">English</li>
+</ul>
+
+<h3>Download BmsONE beta 0.2.1</h3>
+<ul class="downloadlist">
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KYnVkSUFMZGpfU1E">Windows (32bit)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KeTVkczA3UEZKNVU">Windows (64bit)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQzlGTUlLSEc5WkU">Mac</a></li>
+</ul>
+
+<div class="notice">
+If an error like &rdquo;MSVCP140.dll is missing&rdquo; occurs, please install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Visual C++ Redistributable for Visual Studio 2015</a>. (Please choose "x86" or "x64" matching the version of BmsONE.)
+</div>
+
+<h3>1. What is this</h3>
+
+<p>
+BmsONE is an editor for bmson files.
+Bmson is a new music game format derived from BMS. See <a href="#links">6. Links</a> for more information about bmson.
+</p>
+<p>
+This application currently supports v1.0 and v0.21 bmson, but some features cannot be edited yet.
+</p>
+
+<h3>2. How to Use</h3>
+
+<h4>2.1 Caution</h4>
+
+<p>
+This software is under development, so the current version lacks some features
+and often goes wrong (particularly on Mac).
+Be sure to make backups and save files frequently.
+</p>
+<p>
+Note that &ldquo;Ctrl key&rdquo; below means Command key (⌘) on Mac.
+</p>
+
+<h4>2.2 Adding Sound Channels</h4>
+
+<p>
+[Channel] -> [Add] and then select sound files. Wav and Ogg Vorbis are supported.
+Dragging and dropping sound files also works.
+</p>
+
+<h4>2.3 Locating Sound Notes</h4>
+
+<p>
+There are two modes, &ldquo;Edit Mode&rdquo; and &ldquo;Write Mode&rdquo;.
+</p>
+<p>
+In order to locate sound notes, you first have to switch to &ldquo;Write Mode&rdquo;
+by clicking on the pencil icon in the tool bar.
+Next click on a BGM lane whose channel you want to edit. The selected channel is shown highlighted.
+Then Shift+Click on a (playing or BGM) lane to locate a new note which plays sound from beginning.
+You can locate a note which slices sound by just clicking on the lane.
+Right-clicking on an existing note will delete it.
+</p>
+<p>
+Notice that waveforms are drawn in a BGM lane, which stand for the sound played at that time.
+Colors of waveforms tell you the sound is played by key notes or BGM notes.
+</p>
+<p>
+In &ldquo;Edit Mode&rdquo;, you can select multiple objects by dragging around them.
+This behavior can be modified by Ctrl, Alt and Shift keys.
+For example, Alt+dragging selects notes only in the current sound channel.
+You can also move notes horizontally by dragging on them, or change their length by Shift+dragging.
+</p>
+<p>
+You can play sounds in the current channel at that time while Alt+Right-clicking or Middle-clicking.
+(If you use Mac, Control(not ⌘)+Clicking works as Right-clicking.)
+Clicking on Master Lane previews the whole song.
+If you press Ctrl during a preview, then the screen will be scrolled following the playing position.
+</p>
+
+<h4>2.4 Other Features</h4>
+
+<p>
+In [Info] window, you can input basic information of the song.
+Initial BPM should be set before notes are located because it affects waveforms and preview sounds.
+</p>
+<p>
+To edit bar lines, Ctrl+Click on measures bar, the leftmost lane of the sequence view,
+where measure numbers are displayed. Bar lines with gray numbers are temporary, that is,
+they are added automatically every four beats and can move or become permanent
+when another bar line is inserted or removed manually.
+</p>
+<p>
+To edit BPM events, click on the lane next to measures bar.
+After placing or selecting a BPM event, a small tool bar to input BPM appears.
+</p>
+<p>
+BGA data and most extra data cannot be edited, but they will not be lost by this application.
+Only extra data in BMSInfo can be edited by writing fragments of JSON directly as follows:
+</p>
+<pre>
+  &quot;updated_at&quot;: &quot;14:00 2015/11/14&quot;,
+  &quot;registered_with&quot;: &quot;The Forgetalia&quot;
+</pre>
+<p>
+A configuration file is stored in a directory such as:
+  <div>[Windows] C:\Users\<i>&lt;USER&gt;</i>\AppData\Local\BmsONE</div>
+  <div>[Mac OS X] ~/Library/Preferences/BmsONE</div>
+</p>
+<p>
+If this application often crashes when scrolling Sequence View, please choose [View] -
+[Sound Channel Lane Display] - [Simple] so that drawing process becomes stable though
+waveforms are not displayed.
+</p>
+<p>
+If you feel hard to edit objects in bmson with a number of channels, then try the following:
+ <ul>
+  <li>Select [View] - [Sound Channel Lane Display] - [Compact] or [Simple] to make lanes thin.</li>
+  <li>Check [Channel] - [Find] - [Active Channels Only] and [Show Hit Channels Only] to hide
+    channels that are not playing near the current position.</li>
+ </ul>
+</p>
+
+<h3>3. License</h3>
+
+<p>
+The author of this software is not liable for any damages caused by the software.
+Do not use this software for illegal purposes; for example, you must not create a bmson data
+which includes audio or graphical data illegally downloaded or extracted from music CDs or games.
+Redistribution of this software is permitted only if the whole archive of the software is
+provided for free and kept unchanged.
+</p>
+<p>
+This software uses Qt under LGPL license. Dlls (for Windows), Frameworks and PlugIns (for Mac)
+come from Qt, so you can use the software while replacing them with those of other versions.
+See the next section for build information.
+</p>
+<p>
+Contact me for questions.
+</p>
+
+<h3>4. Development Environment</h3>
+
+<b>[Windows]</b>
+<ul>
+<li>Windows 10 Pro</li>
+<li>Desktop Qt 5.9.1 MSVC2015 OpenGL 32bit/64bit</li>
+</ul>
+
+<b>[Mac]</b>
+<ul>
+<li>Mac OS X 10.10.5</li>
+<li>Desktop Qt 5.9.0 clang 64bit</li>
+</ul>
+
+<b>[Common]</b>
+<ul>
+<li>Using Xiph.org's libogg 1.3.2 and libvorbis 1.3.5.</li>
+</ul>
+
+
+<h3>5. Contact</h3>
+
+<b>exclusion</b>
+<ul>
+<li>Twitter: <a href="http://twitter.com/excln">@excln</a></li>
+<li>E-mail:  <u>exclusion_bms◆yahoo.co.jp</u></li>
+<li>Web:     <a href="http://sky.geocities.jp/exclusion_bms/">http://sky.geocities.jp/exclusion_bms/</a></li>
+</ul>
+
+<p>
+Source code repository: <a href="https://github.com/excln/BmsONE">https://github.com/excln/BmsONE</a>
+</p>
+<p>
+Bug reports and proposals are welcome via Issues.
+Feel free to fork this repository to resolve problems and create pull requests.
+</p>
+
+<a name="links"></a>
+<h3>6. Links</h3>
+
+<ul>
+<li><div><a href="http://cerebralmuddystream.nekokan.dyndns.info/bmson/">Bmson Project by wosderge</a></div>
+  The official web site of bmson format.
+</li>
+<li><div><a href="http://www40.atwiki.jp/laser_bm/pages/110.html">BMSまとめ @wiki - how to bmson</a></div>
+  How to create and play bmson. (Japanese)
+</li>
+<li><div><a href="http://bmson-spec.readthedocs.io/en/master/">bmson specs by flicknote</a></div>
+  A draft and detailed explanation of bmson format specification. (English)
+  Note that this includes many features not supported by bmson applications yet.
+</li>
+<li><div><a href="https://docs.google.com/document/d/1gQKPWApeL03aO09-II7slxTeuvm3HO_FmY1D4chRvOQ/edit">#bmson Creation Notes by ドルフィン</a></div>
+  How to create bmson, including key sounds creation with DAWs and editing with bmson editors. (English)
+</li>
+<li><div><a href="https://docs.google.com/document/d/178FvK-rVAcc-ZK5ls6gnMmaIphFmwF78JWIL8kRiGXA/edit#">BmsONE 101 - The Basics by ドルフィン</a></div>
+  How to use BmsONE. (English)
+</li>
+</ul>
+
+<h3>7. History</h3>
+
+<h4>Sep 23 2017 beta 0.2.1
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KYnVkSUFMZGpfU1E"><img src="images/icon/dl2.png">Windows (32bit)</a><a href="https://drive.google.com/open?id=0B2H4n5O4rM2KeTVkczA3UEZKNVU"><img src="images/icon/dl2.png">Windows (64bit)</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQzlGTUlLSEc5WkU"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>Made the source code public on GitHub.</li>
+  <li>Began to supply 64bit versions on Windows.</li>
+  <li>Fixed crashes when scrolling the chart in Sequence View particularly on Mac.</li>
+  <li>Modified path traversal detection behavior.</li>
+  <li>Fixed crashes when right-clicking on a note to delete it in Write Mode.</li>
+  <li>Improved performance of chart scrolls.</li>
+  <li>Partly fixed a bug that waveform display is sometimes not refreshed.</li>
+  <li>Fixed a bug that &quot;Selected Objects&quot; window does not appear when you insert a BPM event.</li>
+  <li>Fixed a bug that undoing insertion of a BPM event may cause a crash.</li>
+  <li>Implemented grid setting.</li>
+  <li>24bit or 32bit WAV files are now supported.</li>
+  <li>Implemented BMS importing.</li>
+  <li>Implemented keyboard (24keys, etc.) mode.</li>
+</ul>
+
+<h4>Feb 12 2017 beta 0.1.5
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KTzJfV0tBRzFOY0E"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KZEl4Mk5WTjdLbTQ"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>You can edit &quot;title_image&quot; and &quot;preview_music&quot; in the Information window, which are in bmson 1.0.0 spec.</li>
+  <li>You can change UI font. The default font on Windows was changed.</li>
+  <li>Fixed crashes when previewing sound channels across BPM changes.</li>
+  <li>Fixed crashes when many BPM events are edited at once.</li>
+  <li>You can edit extra data of each sound note and BPM event.</li>
+  <li>You can choose styles &quot;Compact&quot; and &quot;Simple&quot; of sound channel lane display in Sequence View.</li>
+  <li>Improved channel search so that inactive channels can be filtered and Sequence View can show hit channels only.</li>
+  <li>Implemented WAV export.</li>
+</ul>
+
+<h4>Dec 25 2016 beta 0.1.4
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KSjdZZFpGeC03VjA"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KckM3bUotWllGSjA"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>Fixed a problem with invoking external viewers that contain white spaces in their paths.</li>
+  <li>Fixed some bugs in commands &quot;Move to BGM Lanes&quot; and &quot;Move to Key Lanes&quot;.</li>
+  <li>Modified influence of &quot;Snap to Grid&quot; on hit test in Edit Mode.</li>
+  <li>Modified display in Sequence View.</li>
+  <li>Sequence View does not prohibit notes from overlapping but instead show warnings.</li>
+  <li>Sequence View supports layered notes editing.</li>
+  <li>Press number keys to move selected notes to specific lanes.</li>
+  <li>You can choose &quot;Compact&quot; format so that the BMSON file is as small as possible.</li>
+  <li>Provisional support for HiDPI displays.</li>
+</ul>
+
+<h4>Dec 11 2016 beta 0.1.3
+(<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KQ1dUbFN5bGlrS0E"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/open?id=0B2H4n5O4rM2KM0dXRFBNSjhPUE0"><img src="images/icon/dl2.png">Mac</a>)
+</h4>
+<ul>
+  <li>Implemented preview on Mini Map.</li>
+  <li>Fixed waveform display that had been inverted in Master Lane and Mini Map.</li>
+  <li>Modified waveform display in Channel Info View.</li>
+  <li>Fixed memory leaks that occurred when new documents are opened.</li>
+  <li>Implemented double clicks on notes to switch them between playable and BGM lanes.</li>
+  <li>Drag to input a long note in Write Mode.</li>
+  <li>Added View Modes for Generic 6,7 Keys and the plain View Mode.</li>
+  <li>Implemented functions to invoke external viewers.</li>
+  <li>Fix a bug in updating Master Cache when notes are edited.</li>
+  <li>Some minor bug fixes and improvements on UI.</li>
+</ul>
+
+<h4>Sep 6 2015 beta 0.1.2
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KTlZpUXdSbHZEdGc/view?usp=sharing"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KdGZMbUlNODdqQjg/view?usp=sharing"><img src="images/icon/dl2.png">Mac</a>)</h4>
+<ul>
+  <li> Added a View Mode for Circular Rhythm.</li>
+  <li> Added a setting whether notes in inactive channels are shown dark.</li>
+  <li> Implemented auto-scrolling in channel preview, and improved display functionality.</li>
+  <li> Added a setting of the max duration of note preview.</li>
+  <li> Implemented channel search.</li>
+  <li> The mode hint can be chosen out of typical values, and it automatically changes View Mode.</li>
+</ul>
+
+<h4>Nov 20 2015 beta 0.1.1
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KOTE1cEliV28zaHM/view?usp=sharing"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KZEFLMXh6cU9MQVk/view?usp=sharing"><img src="images/icon/dl2.png">Mac</a>)</h4>
+<ul>
+  <li> Fixed a bug that a new document lacks version info.</li>
+  <li> Reduced unnecessary Master Cache updates during editing sound notes.</li>
+</ul>
+
+<h4>Nov 14 2015 beta 0.1.0
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KS3A5ZGlsZzhReTQ/view?usp=sharing"><img src="images/icon/dl2.png">Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KZjVTS3RBQ0YwaTg/view?usp=sharing"><img src="images/icon/dl2.png">Mac</a>)</h4>
+<ul>
+  <li> Improved View Mode functionality.</li>
+  <li> Implemented Master Cache, Master Lane and Mini Map.</li>
+  <li> Support of editing bmson v1.0 data. (Now default output format is v1.0.)</li>
+</ul>
+
+<h4>Nov 4 2015 alpha 0.0.6
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2Kb2hDREg3NUI5alk/view?usp=sharing"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KaVRJODh4LXJvRVE/view?usp=sharing"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> Fixed crashes when opening ogg files on Mac.</li>
+  <li> Reduced crashes when scrolling notecharts on Mac.</li>
+  <li> Implemented previews of a sound channel at arbitrary position.</li>
+  <li> Tentative support of bmson v1.0 input/output.</li>
+  <li> Tentative support of view modes besides 7-key.</li>
+  <li> Implemented Preferences window where you can select languages.</li>
+  <li> Disabled shortcuts while dragging notes (which cause problems in the undo buffer and so on).</li>
+</ul>
+
+<h4>Oct 17 2015 alpha 0.0.5
+(<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KWnNlMHJNNHAxRnM/view?usp=sharing"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://drive.google.com/file/d/0B2H4n5O4rM2KVC1vRTFUVUdUeTg/view?usp=sharing"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> Implemented Undo/Redo.</li>
+  <li> Implemented &ldquo;Edit Mode&rdquo;, and then you can move notes and make long notes.</li>
+  <li> Selected notes can now be deleted or switch playable lanes and BGM lanes at a time.</li>
+  <li> Modified the UI of Info View and Channel View.</li>
+  <li> Fixed some slight bugs and improved performance.</li>
+</ul>
+
+<h4>Sep 27 2015 alpha 0.0.4
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a004_20150927.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a004_20150927.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> Fixed a bug that sequence view goes totally wrong when a sound note in BGM lane is previewed.</li>
+  <li> Unicode characters are now supported also in extra info fields and sound file names.</li>
+  <li> D&amp;D files into the EXE file now works (Windows only).</li>
+</ul>
+
+<h4>Sep 26 2015 alpha 0.0.3
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a003_20150926.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a003_20150926.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+<ul>
+  <li> Upgraded Qt from 5.4.1 to 5.5.0. </li>
+  <li> Implemented some additional UI features. </li>
+  <li> Fixed major known factors of crashes on Mac. </li>
+  <li> Bar lines and BPM events can now be edited. </li>
+  <li> Modified the way to store data so that unsupported data will not be lost. </li>
+  <li> Fixed most wrong behaviors in drawing waveforms. </li>
+  <li> BmsONE now uses a configuration file. </li>
+</ul>
+
+<h4>Sep 17 2015 alpha 0.0.2
+(<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_win32_a002_20150917.zip"><img src="images/icon/dl2.png"></img>Windows</a>
+<a href="https://dl.dropboxusercontent.com/u/54555387/bmsone/BmsONE_macx_a002_20150917.dmg"><img src="images/icon/dl2.png"></img>Mac</a>)</h4>
+
+<h4>Sep 12 2015 alpha 0.0.1</h4>
+
+</div><!-- #inner -->
+
+<div id="footer">
+  <div class="copyright">
+    Copyright &copy; 2011-2017 exclusion All Rights Reserved.
+  </div>
+</div>
+
+</div><!-- #outer -->
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+div.bms{
+  width: 100%;
+  overflow: auto;
+  margin: 5px 0px 10px;
+}
+
+div.bmsleft{
+  float: left;
+  width: 120px;
+}
+
+div.bmsright{
+  float: left;
+  width: 600px;
+  margin: 0px 20px 0px;
+}
+
+div.bmstbox{
+  padding: 6px;
+  background-color: #666699;
+  color: #ffffff;
+}
+
+div.bmstitle{
+  width: 48%;
+  text-align: center;
+  float: left;
+}
+
+div.bmsgenre{
+  font-size: smaller;
+  float: left;
+  width: 24%;
+}
+
+div.bmsdl{
+  font-size: smaller;
+  text-align: right;
+}
+
+div.bmstbox a{
+  color: #ffffff;
+}
+
+div.bmscm{
+  border-width: 1px;
+  border-color: #666699;
+  border-style: dotted;
+  background-color: #f8f8ff;
+  padding: 5px;
+  font-size: 12px;
+}
+
+div.bmsir{
+}
+
+div.bmsir table{
+  font-size: 10px;
+  line-height: 10px;
+}
+
+div.bmsmv{
+  text-align: right;
+  line-height: 20px;
+  font-size: smaller;
+}
