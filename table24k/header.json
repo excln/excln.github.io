@@ -1,0 +1,371 @@
+{
+	"name": "24鍵SP難易度表",
+	"symbol": "🎹",
+	"data_url": "https://excln.github.io/table24k/data.json",
+	"tag": "K24SP",
+	"mode": "keyboard-24k",
+	"level_order": ["1","2","3","4","5","6","7","8","9","10","?"],
+	"course":[
+		{
+			"name":"初段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "5a25f65ef0c820f7b1ae2106c3da1b7e384b2e80da24ff331899bf6ab335b48a"
+				},
+				{
+					"sha256": "5fad5ca5f177082abab5f2d31cf0f3de6ede659b93d8818f0954d629148475c3"
+				},
+				{
+					"sha256": "52485dc8ef2e5a2622e1f94899a82cd4072e204d3f18633cd76ac411a8d375a7"
+				},
+				{
+					"sha256": "dbb9f144065b95692f6401274a96920ddcf571300091ca0daf02806cf92df687"
+				}
+			]
+		},
+		{
+			"name":"二段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "0a494d481d1c28760a921d5baeeda2e339b6683b1d56181bf079eca8074f2da7"
+				},
+				{
+					"sha256": "bdc83226822ca280a8c41b7e2301553a1f66d03d1bcca89c18662d359b116b9a"
+				},
+				{
+					"sha256": "d1ea96537d6a901dd75c1141239a94ebe2af2559e4fe6d9cdc10858c6c1b3b47"
+				},
+				{
+					"sha256": "fbaf4fa47753f95521442c6fd616a4d2c20a8d794b8cfff7cfe1836ef5a439f7"
+				}
+			]
+		},
+		{
+			"name":"三段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "4b9dc046871735c64c0c85fdefa34622861f171da9b8480c61938c5d63c599e3"
+				},
+				{
+					"sha256": "c7bc2d388316332d5e143567c7afe9300b31ae4cc5468fb8451fabbbc3466207"
+				},
+				{
+					"sha256": "2a88a632a952df6fe5297ef115884d033d23ef33721f963b0c560fc6312995d2"
+				},
+				{
+					"sha256": "481a9d69aa38a49750b5f4c1dec607c9aa3911f895407a5dec7f14b68314687a"
+				}
+			]
+		},
+		{
+			"name":"四段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "492bb57e1e218994975e4fa48ee56c5f66958329de0742aeef3b6472c7a856b6"
+				},
+				{
+					"sha256": "829e5d42e3349b69331925e2729cf37d2f4d87c71b9a0d1344e66218debcabc0"
+				},
+				{
+					"sha256": "ff2cd54f41f910b355ca3a45ba64cf598903e78340c4f86769f32c786da63f04"
+				},
+				{
+					"sha256": "b8e29a549ce3f0298b6119164b253312f8f87934b54605502b8b56196a98416a"
+				}
+			]
+		},
+		{
+			"name":"五段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "7797e095e50b4067e6e933a264ed5252beafadfff26138bef89bb559a59e370b"
+				},
+				{
+					"sha256": "673f56992285848e56c66efb0f6a6be1c2441aca665ff3fd3281377b256e06f7"
+				},
+				{
+					"sha256": "43bb4f52a5f3fec55a7eb17cb9a5b327ef57e83beed9cbcacad1297f39066442"
+				},
+				{
+					"sha256": "1649f8ffb443d1208e44be3599f5c058b96e83f5ca454d7ac86bfc83f2402982"
+				}
+			]
+		},
+		{
+			"name":"六段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "1878f29d409f0af0d5fbc2a94e938f9ecccba6455d2bf9ce2af6f664be1b55b1"
+				},
+				{
+					"sha256": "576bc5e4ea3ae0def0be00670cf40a8d9d7b6149c45c2f0b3654fc9638b1c4ea"
+				},
+				{
+					"sha256": "ee8e1f68fbcf2522f91e2f2d2d3c44aab6a604ed2eeb56e37c9de27b97348bae"
+				},
+				{
+					"sha256": "0b6decf8090aa9d93df129edd85eb9c966ac9d471739698482cc159ab7b4897f"
+				}
+			]
+		},
+		{
+			"name":"七段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "51c7c7711a404291cc4e10fbe63fe2cbd76409a70ae97b0b2b635faa74a8725c"
+				},
+				{
+					"sha256": "6a98f7b42f4d089f208f777bd05d8f1ff80f36403ac478f93bc366183e7f95d0"
+				},
+				{
+					"sha256": "83bb5a138faacf9744659e3c96e3e23459b8d8c1b2f4d66d65ae59bf82a497e8"
+				},
+				{
+					"sha256": "4ecd04ac01557ad21b6580cdcb635bd512ab418e97ebf2f692fad64a9fc3b9ef"
+				}
+			]
+		},
+		{
+			"name":"八段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "b3419de3d9ed612b941ad21a5df6f1e39f80d9f4e8b7cbfedd189f0f5ad4e832"
+				},
+				{
+					"sha256": "72e5ae69c3ce8b3fdf341d03d95f723a2aeb3195f945b6dfa9cbe37043fd0234"
+				},
+				{
+					"sha256": "0b65c3440266e5df31a11322cb9d9c2a0d088cd98922dea65096e3004427c0a4"
+				},
+				{
+					"sha256": "bc37eebb8202df8c2e9116bf8d1bd967cd59bbc9fcd56915fa162c349c1f938d"
+				}
+			]
+		},
+		{
+			"name":"九段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "c2d70ad9f7fd34401743ed0b6d928c0c2768ec2094da5daf51a7fc264b108c98"
+				},
+				{
+					"sha256": "cb3733a99571758d6f66aaf75185500d338b82bb7e69df879f287cfce3c416a7"
+				},
+				{
+					"sha256": "66b9429206734b5d06df2664b76aba45b3f0ff7ee817ff5eb9778d31b6aa441b"
+				},
+				{
+					"sha256": "61f1a520782e8ee2972fa4b1d0607e90480b9ede5790a285b698122366a6ab91"
+				}
+			]
+		},
+		{
+			"name":"十段",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "7951be49d44bed7c8ee2965c99c2361686e173f72c29207658dec8d45d54f4da"
+				},
+				{
+					"sha256": "b81d7d82848beeac9c711e7ca88055f8f234dcb96e45f13b8fa54ec68524d5d3"
+				},
+				{
+					"sha256": "d3aece8122ed169683d59b943160dc7c6b70feb1821f25bcde43389422c19b60"
+				},
+				{
+					"sha256": "102a59ba5382effdfba44bcdccabbcb4aaccadc77398f6b5886b199a3ba213c2"
+				}
+			]
+		},
+		{
+			"name":"皆伝",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "e1d75e61ac9ec88aa0ee9bec4fface5c72d7de6ca5dfb80cd92e05caa843711b"
+				},
+				{
+					"sha256": "abcef2937b592526c67c7fcd60bb1f8d7d4f798f648706be1fd774d0e6229198"
+				},
+				{
+					"sha256": "441e00d55855a4ecb1222afbf96abc8d5d880250eb6dfcaa5a7825ce7a3aa704"
+				},
+				{
+					"sha256": "e01e664a9cd5fb58220913bc41425236bea849497d2f85481240481f6d7b7d53"
+				}
+			]
+		},
+		{
+			"name":"Overjoy",
+			"constraint": ["grade_mirror", "gauge_24k"],
+			"tropy": [
+				{
+					"name":"silvermedal",
+					"missrate":5.0,
+					"scorerate":70.0
+				},
+				{
+					"name":"goldmedal",
+					"missrate":2.5,
+					"scorerate":85.0
+				}
+			],
+			"charts": [
+				{
+					"sha256": "da1364802abe19796679c457ca3bfa9851575281af42a66ab7722717d83737c0"
+				},
+				{
+					"sha256": "565d606bf8e59f5fbb85107135532dd61276f8a83dc76b50e4ff44f625d6a7ae"
+				},
+				{
+					"sha256": "063c32d35cd9258f4a230839e41cce541f055afa9a925debe5dde2e4cc5583ea"
+				},
+				{
+					"sha256": "31f8cede4b5b3dd2d99f2e60d3e9a070ac6fadaaf8d826300addc5a9493a6b82"
+				}
+			]
+		}
+	],
+	"update":"2018-04-24"
+}

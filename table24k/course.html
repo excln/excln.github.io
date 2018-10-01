@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<title>24鍵SP難易度表</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="bmstable" content="https://excln.github.io/table24k/header.json" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen,print" />
+<script src="jquery-2.0.2.min.js"></script>
+<body class="diff">
+<h2>24鍵SP難易度表 コース・段位認定</h2>
+<p class="table-nav">
+  <span class="table-nav-link">SP</a>
+  | <a class="table-nav-link" href="../table48k/course.html">DP</a>
+</p>
+<p class="table-nav">
+  <a class="table-nav-link" href="table.html">難易度表</a>
+  | <span class="table-nav-link">コース・段位認定</span>
+  | <a class="table-nav-link" href="history.html">更新履歴</a>
+</p>
+<!--　　　　　ここから難易度表本体　　　　　-->
+<div class="tableflame table-course">
+  <table align="center" cellspacing="1" cellpadding="2" border="0" bgcolor="#000000" id="table_int">
+  </table>
+</div>
+<p class="table-nav">
+  <a class="table-nav-link" href="course_old.html">過去のコース・段位認定</a>
+</p>
+<div class="description footnote">
+  <ul>
+    <li>&ast;1 t/p: 実際の音に比べて譜面をどれだけ横にずらしているか（半音単位）。絶対音感の人は注意してください。逆方向にずらす（例：+1なら半音下げて弾くか、トランスポーズ-1に設定する）ことで本来のキーになります。</li>
+    <li>&ast;2 notes: ノート数。LNモード（LN/CN/HCN）によって変動することがあります。</li>
+  </ul>
+</div>
+<div id="dialog-bg"></div>
+<div id="dialog" style=""><div id="dialog-inner"></div></div>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+  $.getJSON($("meta[name=bmstable]").attr("content"), function(header){
+    $.getJSON(header.data_url, function(information){
+      for (var i=0; i<header.course.length; i++) {
+        for (var j=0; j<header.course[i].charts.length; j++) {
+          var sha256 = header.course[i].charts[j].sha256;
+          for (var k=0; k<information.length; k++) {
+            if (information[k] != null && information[k].sha256 == sha256) {
+              header.course[i].charts[j] = information[k];
+              break;
+            }
+          }
+        }
+      }
+      makeBMSTable(header, header.course);
+    });
+  });
+  
+});
+
+function makeBMSTable(header, courses) {
+    var x = "";
+    var ev = "";
+    var count = 0;
+    var obj = $("#table_int");
+    var mark = header.symbol;
+    // 表のクリア
+    obj.html("");
+    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>タイトル</td><td>t/p<sup>&ast;1</sup></td><td>notes<sup>&ast;2</sup></td></tr>").appendTo(obj);
+    var obj_sep = null;
+    for (var i = 0; i < courses.length; i++) {
+      obj_sep = $("<tr class='tr_separate'><td colspan='4'>" + courses[i].name + "</td></tr>");
+      obj_sep.appendTo(obj);
+      for (var j = 0; j < courses[i].charts.length; j++) {
+        // 本文
+        var chart = courses[i].charts[j];
+        var str = $("<tr class='tr_normal'></tr>");
+        // レベル表記
+        $("<td width='3%'>" + mark + chart.level + "</td>").appendTo(str);
+        // タイトル
+        $("<td width='15%'>" + chart.title + "</td>").appendTo(str);
+        // transpose
+        if (chart.transpose != null) {
+          if (chart.transpose > 0) {
+            $("<td width='3%'>+" + chart.transpose + "</td>").appendTo(str);
+          } else if (chart.transpose < 0) {
+            $("<td width='3%'>-" + (-chart.transpose) + "</td>").appendTo(str);
+          } else {
+            $("<td width='3%'>0</td>").appendTo(str);
+          }
+        } else {
+          $("<td width='3%'></td>").appendTo(str);
+        }
+        // notes
+        if (chart.notes != null) {
+          $("<td width='3%'>" + chart.notes + "</td>").appendTo(str);
+        } else {
+          $("<td width='3%'></td>").appendTo(str);
+        }
+        str.appendTo(obj);
+      }
+    }
+}
+
+</script>
+</body>
+</html>

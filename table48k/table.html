@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<title>24鍵DP(48鍵)難易度表</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="bmstable" content="https://excln.github.io/exclusion_bms/table48k/header.json" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen,print" />
+<script src="jquery-2.0.2.min.js"></script>
+<body class="diff">
+<h2>24鍵DP(48鍵)難易度表</h2>
+<p class="table-nav">
+  <a class="table-nav-link" href="../table24k/table.html">SP</a>
+  | <span class="table-nav-link">DP</span>
+</p>
+<p class="table-nav">
+  <span class="table-nav-link">難易度表</span>
+  | <a class="table-nav-link" href="course.html">コース・段位認定</a>
+  | <a class="table-nav-link" href="history.html">更新履歴</a>
+</p>
+<p class="description">
+beatorajaでこのページを難易度表として登録できます。
+GLAssistには対応していません。
+update列は譜面ファイル自体の更新日時です。
+</p>
+<p class="description">
+BMSのdropboxリンクが切れている場合はURLを <tt>https://dropbox.bms.ms/u/...</tt> に置き換えてみてください。
+本体URLがLR2IRになっているものについては、IRにあるリンクからダウンロードできますが公認のものかどうかは不明です。
+</p>
+<!--　　　　　ここから難易度表本体　　　　　-->
+<div class="tableflame">
+  <table align="center" cellspacing="1" cellpadding="2" border="0" bgcolor="#000000" id="table_int">
+  </table>
+</div>
+<div class="description footnote">
+  <ul>
+    <li>&ast;1 t/p: 実際の音に比べて譜面をどれだけ横にずらしているか（半音単位）。絶対音感の人は注意してください。逆方向にずらす（例：+1なら半音下げて弾くか、トランスポーズ-1に設定する）ことで本来のキーになります。</li>
+    <li>&ast;2 notes: ノート数。LNモード（LN/CN/HCN）によって変動することがあります。</li>
+  </ul>
+</div>
+<div id="dialog-bg"></div>
+<div id="dialog" style=""><div id="dialog-inner"></div></div>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+  packages = {
+    "GENOSIDE": {
+      "name": "GENOSIDE -BMS Starter Package-",
+      "url": "http://nekokan.dyndns.info/~lobsak/genoside/index.html",
+      "label": "GENOSIDE"
+    },
+    "BMSSP2009": {
+      "name": "BMS Starter Pack 2009",
+      "url": "http://www.yamajet.com/bmssp/index.html",
+      "label": "BMSSP'09"
+    },
+    "BMSSP2008": {
+      "name": "BMS Starter Pack 2009",
+      "url": "http://www.yamajet.com/bmssp/index.html",
+      "label": "BMSSP'08"
+    },
+    "BMSSP2007": {
+      "name": "BMS Starter Pack 2009",
+      "url": "http://www.yamajet.com/bmssp/index.html",
+      "label": "BMSSP'07"
+    },
+    "BMSSP2006": {
+      "name": "BMS Starter Pack 2009",
+      "url": "http://www.yamajet.com/bmssp/index.html",
+      "label": "BMSSP'06"
+    },
+    "ToyMusical2": {
+      "name": "Toy Musical 2",
+      "url": "http://tm2.toymusical.net/index.html",
+      "label": "ToyMusical2"
+    }
+  };
+
+  $.getJSON($("meta[name=bmstable]").attr("content"), function(header){
+    $.getJSON(header.data_url, function(information){
+      var sortedInfo = [];
+      var j = 0;
+      for (var l=0; l<header.level_order.length; l++) {
+        var charts = []
+        for (var i=0; i<information.length; i++) {
+          if (information[i] != null && information[i].level == header.level_order[l]) {
+            charts.push(information[i]);
+            information[i] = null;
+          }
+        }
+        charts.sort(function(a,b){
+          return a.update < b.update ? -1 : a.update > b.update ? 1 : 0;
+        });
+        sortedInfo = sortedInfo.concat(charts);
+      };
+      makeBMSTable(header, sortedInfo);
+    });
+  });
+  
+});
+
+function makeBMSTable(header, info) {
+    var x = "";
+    var ev = "";
+    var count = 0;
+    var obj = $("#table_int");
+    var mark = header.symbol;
+    // 表のクリア
+    obj.html("");
+    $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>タイトル</td><td align='center'>本体</td><td align='center'>差分</td><td>t/p<sup>&ast;1</sup></td><td>notes<sup>&ast;2</sup></td><td align='center'>コメント</td><td>update</td><td>JSON</td></tr>").appendTo(obj);
+    var obj_sep = null;
+    for (var i = 0; i < info.length; i++) {
+        // 難度ごとの区切り
+        if (x != info[i].level) {
+            // 前の区切りに譜面数、平均密度を追加
+            if (obj_sep != null) {
+                obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "譜面)</b></td>");
+            }
+            obj_sep = $("<tr class='tr_separate' id='" + mark + info[i].level + "'></tr>");
+            obj_sep.appendTo(obj);
+            count = 0;
+            x = info[i].level;
+        }
+        // 本文
+        var str = $("<tr class='tr_normal'></tr>");
+        if(info[i].state == 1) {
+        str = $("<tr class='tr_new'></tr>");
+        }
+        if(info[i].state == 2) {        
+        str = $("<tr class='tr_update'></tr>");
+        }
+        // レベル表記
+        $("<td width='3%'>" + mark + x + "</td>").appendTo(str);
+        // タイトル
+        $("<td width='15%'>" + info[i].title + "</td>").appendTo(str);
+        // アーティスト
+        var astr = "";
+        if(info[i].url != null) {
+          if(info[i].artist != null) {
+            astr = "<a href='" + info[i].url + "'>" + info[i].artist + "</a>";
+          } else {
+            astr = "<a href='" + info[i].url + "'>" + info[i].url + "</a>";
+          }
+        } else {
+          if(info[i].artist != null) {
+            astr = info[i].artist;
+          }
+        }
+        if(info[i].tags != null) {
+          for (var j=0; j<info[i].tags.length; j++){
+            var p=info[i].tags[j];
+            if(packages[p] != null) {
+              astr += " <a class='tag-package' href='" + packages[p].url + "'>" + packages[p].label + "</a>";
+            } else {
+              astr += " <span class='tag-label'>" + p + "</span>";
+            }
+          }
+        }
+        $("<td width='15%'>" + astr + "</td>").appendTo(str);
+        // 差分
+        if(info[i].url_diff != null) {
+          if(info[i].chart != null) {
+          $("<td width='6%'><a href='" + info[i].url_diff + "'>" + info[i].chart + "</a></td>").appendTo(str);
+          } else {
+          $("<td width='6%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
+          }
+        } else {
+          if(info[i].chart != null) {
+          $("<td width='6%'>" + info[i].chart + "</td>").appendTo(str);
+          } else {
+          $("<td width='6%'></td>").appendTo(str);
+          }
+        }
+        // transpose
+        if (info[i].transpose != null) {
+          if (info[i].transpose > 0) {
+            $("<td width='3%'>+" + info[i].transpose + "</td>").appendTo(str);
+          } else if (info[i].transpose < 0) {
+            $("<td width='3%'>-" + (-info[i].transpose) + "</td>").appendTo(str);
+          } else {
+            $("<td width='3%'>0</td>").appendTo(str);
+          }
+        } else {
+          $("<td width='3%'></td>").appendTo(str);
+        }
+        // notes
+        if (info[i].notes != null) {
+          $("<td width='3%'>" + info[i].notes + "</td>").appendTo(str);
+        } else {
+          $("<td width='3%'></td>").appendTo(str);
+        }
+        // コメント
+        $("<td width='15%'>" + info[i].comment + "</td>").appendTo(str);
+        str.appendTo(obj);
+        // update
+        if (info[i].update != null) {
+          if (info[i].update === header.update) {
+             $("<td width='5%' class='new'>" + info[i].update + "</td>").appendTo(str);
+          } else {
+             $("<td width='5%'>" + info[i].update + "</td>").appendTo(str);
+          }
+        } else {
+          $("<td width='5%'></td>").appendTo(str);
+        }
+        // JSON
+        $("<td width='3%'><a class='show-json' value='"+i+"'>●</a></td>").appendTo(str);
+        count++;
+    }
+    // 最後の区切り処理
+    if (obj_sep != null) {
+        obj_sep.html("<td colspan='9' align='center'>" + "<b>" + mark + x + " (" + count + "譜面)</b></td>");
+    }
+    
+  $(".show-json").click(function(){
+    $("#dialog-inner").html("<pre>"+JSON.stringify(info[$(this).attr("value")],null,2)+"</pre>");
+    $("#dialog-bg").show();
+    $("#dialog").show();
+  });
+}
+
+$("#dialog-bg").click(function(){
+  $("#dialog").hide();
+  $("#dialog-bg").hide();
+});
+
+</script>
+</body>
+</html>
