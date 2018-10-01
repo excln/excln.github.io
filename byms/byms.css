@@ -1,0 +1,73 @@
+
+body{
+	background-color:#000000;
+	color: #fff;
+}
+
+#contents{
+	width:40em;
+	text-align:left;
+}
+
+.header-navi{
+}
+
+.footer-navi{
+}
+
+a{
+	color: #aaf;
+}
+
+a:visited{
+	color: #aaa;
+}
+
+
+.board{
+	background-color: #222;
+	float: left;
+	border-collapse: separate;
+	border-width: 0px;
+	border-spacing: 1px;
+	border-color: black;
+}
+
+.board td{
+	width: 32px;
+	height: 32px;
+}
+
+.tools{
+	background-color: #222;
+	float: right;
+	border-collapse: collapse;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-color: white;
+}
+
+.tools td div{
+	margin: 3px;
+	width: 32px;
+	height: 32px;
+	background-color: #222;
+}
+
+.tools td.selected{
+	background-color: #fff;
+}
+
+#output{
+	background-color: #fff;
+	color: #000;
+}
+
+table.form{
+	
+}
+
+table.form .left{
+	text-align: right;
+}
+

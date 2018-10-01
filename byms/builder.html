@@ -1,0 +1,240 @@
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>びよますビルダー</title>
+ <link rel="stylesheet" type="text/css" href="byms.css">
+ <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+ <div id="contents">
+
+  <div class="header-navi">
+    <a href="index.html">戻る</a>
+  </div>
+
+  <h1>びよますビルダー</h1>
+
+  <table class="board">
+  </table>
+  <table class="tools">
+  </table>
+  <div style="clear:both;"></div>
+
+  <table class="form">
+   <tr>
+    <td class="left">制限時間:</td>
+    <td><input name="time" type="number" maxlength="8" value="120"></input></td>
+   </tr>
+   <tr>
+    <td class="left">出現間隔1:</td>
+    <td><input name="inter" type="number" maxlength="8" value="120"></input></td>
+   </tr>
+   <tr>
+    <td class="left">出現間隔2:</td>
+    <td><input name="accel" type="number" maxlength="8" value="100"></input></td>
+   </tr>
+   <tr>
+    <td class="left">ライフ:</td>
+    <td><input name="life" type="number" maxlength="8" value="48"></input></td>
+   </tr>
+   <tr>
+    <td class="left">出現するブロックの種類:</td>
+    <td>
+     <select name="rank" type="text" maxlength="6">
+      <option value="0">四分音符まで</option>
+      <option value="1">付点四分音符まで</option>
+      <option value="2" selected="selected">二分音符まで</option>
+     </select>
+    </td>
+   </tr>
+  </table>
+  <div><button onClick="output();">出力</button></div>
+  <div><button onClick="outputAndDownload();">出力&amp;ダウンロード</button></div>
+  <div><pre id="output"></pre></div>
+
+  <div class="footer-navi">
+    <a href="index.html">戻る</a>
+  </div>
+
+ </div>
+
+</body>
+
+<script type="text/javascript">
+var types = [
+  {op: "0", name: "empty", image: "0.png"},
+  {op: "1", name: "floor", image: "1.png"},
+  {op: "2", name: "skelton", image: "2.png"},
+  {op: "3", name: "some noise", image: "3.png"},
+  {op: "4", name: "fixed noise", image: "4.png"},
+  {op: "1", name: "start", image: "start.png"},
+  {op: "A", name: "red noise 1", image: "nr1.png"},
+  {op: "B", name: "red noise 2", image: "nr2.png"},
+  {op: "C", name: "red noise 3", image: "nr3.png"},
+  {op: "D", name: "red noise 4", image: "nr4.png"},
+  {op: "E", name: "green noise 1", image: "ng1.png"},
+  {op: "F", name: "green noise 2", image: "ng2.png"},
+  {op: "G", name: "green noise 3", image: "ng3.png"},
+  {op: "H", name: "green noise 4", image: "ng4.png"},
+  {op: "I", name: "blue noise 1", image: "nb1.png"},
+  {op: "J", name: "blue noise 2", image: "nb2.png"},
+  {op: "K", name: "blue noise 3", image: "nb3.png"},
+  {op: "L", name: "blue noise 4", image: "nb4.png"},
+  {op: "a", name: "red 1", image: "r1.png"},
+  {op: "b", name: "red 2", image: "r2.png"},
+  {op: "c", name: "red 3", image: "r3.png"},
+  {op: "d", name: "red 4", image: "r4.png"},
+  {op: "e", name: "green 1", image: "g1.png"},
+  {op: "f", name: "green 2", image: "g2.png"},
+  {op: "g", name: "green 3", image: "g3.png"},
+  {op: "h", name: "green 4", image: "g4.png"},
+  {op: "i", name: "blue 1", image: "b1.png"},
+  {op: "j", name: "blue 2", image: "b2.png"},
+  {op: "k", name: "blue 3", image: "b3.png"},
+  {op: "l", name: "blue 4", image: "b4.png"},
+];
+var tools = [
+  [5, 0, 1, 2, 3, 4],
+  [6, 7, 8, 9],
+  [10, 11, 12, 13],
+  [14, 15, 16, 17],
+  [18, 19, 20, 21],
+  [22, 23, 24, 25],
+  [26, 27, 28, 29],
+  //[30, 31, 32, 33],
+];
+
+// level data
+var board_width = 11;
+var board_height = 11;
+var board = [
+  [1,1,1,1,1,1,1,1,0,0,0],
+  [1,3,3,1,1,3,3,1,0,0,0],
+  [1,3,3,1,1,3,3,1,0,0,0],
+  [1,1,1,1,1,1,1,1,0,0,0],
+  [1,1,1,1,1,1,1,1,0,0,0],
+  [1,3,3,1,1,3,3,1,0,0,0],
+  [1,3,3,1,5,3,3,1,0,0,0],
+  [1,1,1,1,1,1,1,1,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0],
+];
+var time = 120;
+var inter = 120;
+var accel = 100;
+var life = 48;
+var start_x = 4;
+var start_y = 6;
+var rank = 2;
+
+var current_tool = 5;
+
+function init(){
+  var content = "<tbody>";
+  jQuery.each(board, function(i, row){
+    content += "<tr>";
+    jQuery.each(row, function(j, cell){
+      content += "<td id=\"cell-" + i + "-" + j + "\"></td>";
+    });
+    content += "</tr>";
+  });
+  content += "</tbody>";
+  $(".board").append(content);
+  content = "<tbody>";
+  jQuery.each(tools, function(i, row){
+    content += "<tr>";
+    jQuery.each(row, function(j, tool){
+      content += "<td id=\"tool-" + tool + "\"><div></div></td>";
+    });
+    content += "</tr>";
+  });
+  content +="</tbody>";
+  $(".tools").append(content);
+  $("#tool-" + current_tool).addClass("selected");
+  jQuery.each(types, function(i, c){
+    $("#tool-" + i + " div")
+      .css("background-image", "url(\"builder/" + c.image + "\")")
+      .attr("title", c.name)
+      .mousedown(function(){
+        var old = types[current_tool];
+        $("#tool-" + current_tool)
+          .removeClass("selected");
+        current_tool = i;
+        $("#tool-" + i)
+          .addClass("selected");
+      });
+  });
+}
+function update_cell(i, j){
+  $("#cell-" + i + "-" + j)
+    .css("background-image",
+      "url(\"builder/" + types[board[i][j]].image + "\")");
+}
+function update_board(){
+  jQuery.each(board, function(i, row){
+    jQuery.each(row, function(j, cell){
+      var c = types[cell];
+      update_cell(i, j);
+      $("#cell-" + i + "-" + j)
+        .mousedown(function(){
+          if (board[i][j] == 5) return;
+          if (current_tool == 5){
+            board[start_y][start_x] = 1;
+            update_cell(start_y, start_x);
+            start_x = j;
+            start_y = i;
+          }
+          board[i][j] = current_tool;
+          update_cell(i, j);
+        });
+    });
+  });
+}
+init();
+update_board();
+
+function read_values(){
+  time = $("input[name=time]").val();
+  inter = $("input[name=inter]").val();
+  accel = $("input[name=accel]").val();
+  life = $("input[name=life]").val();
+  rank = $("select[name=rank] option:selected").val();
+}
+
+function output(){
+  read_values();
+  var content = "\n";
+  content += "#TIME\t" + time + "\n";
+  content += "#INTER\t" + inter + "\n";
+  content += "#ACCEL\t" + accel + "\n";
+  content += "#LIFE\t" + life + "\n";
+  content += "#START\t" + start_x + "," + start_y + "\n";
+  content += "#RANK\t" + rank + "\n";
+  content += "\n";
+  content += "#MAP\n";
+  jQuery.each(board, function(i, row){
+    jQuery.each(row, function(j, cell){
+      content += types[cell].op;
+    });
+    content += "\n";
+  });
+  $("#output").empty().append(content);
+  return content;
+}
+function outputAndDownload()
+{
+  var content = output();
+  var blob = new Blob([content], {type: "text/plain"});
+  var a = document.createElement("a");
+  a.download = "00.txt";
+  a.target = "_blank";
+  a.href = URL.createObjectURL(blob);
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+</script>
+
+</html>
