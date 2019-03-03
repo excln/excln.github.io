@@ -32,6 +32,22 @@
     "update": "2018-04-24"
   },
   {
+    "level": "10",
+    "sha256": "d18d90525012ed84c835688da3eef4765b375548fa26808ce50dd0cddeff73a3",
+    "title": "サーカス・ギャロップ [normal48]",
+    "artist": "Marc-Andre' Hamelin",
+    "chart": "exclusion",
+    "url": "http://www1.axfc.net/uploader/Ne/so/82875",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/cicus-md.zip",
+    "transpose": 0,
+    "notes": 2931,
+    "comment": "",
+    "update": "2019-02-28"
+  },
+  {
     "level": "6",
     "sha256": "efa8ff3e3e435f21776a4c2732c672610be48cc166f6480df83dd59dfc0b8553",
     "title": "雪解け色フラワーズ [48key]",
@@ -1006,5 +1022,437 @@
     "notes": 312,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "8",
+    "sha256": "cc88f6b1dc0a1436e7f391a2c42f7ecbde74318534d861b4389ccb66c5804a8a",
+    "title": "ブクレシュティの人形師 [24key Double]",
+    "artist": "Project Necro Fantasia",
+    "chart": "exclusion",
+    "url": "http://integral.client.jp/bms/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/alice.zip",
+    "transpose": 0,
+    "notes": 800,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "20f2f7462c0166048abc494f7f3e1cf6939fa61b0f81546d2572d6dbcfcd3df5",
+    "title": "BABYLON [48ANOTHER]",
+    "artist": "SHIKI",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=179&event=60",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/BABYLON.zip",
+    "transpose": 0,
+    "notes": 1086,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "0b0d366dd189bb599f707668570594d8edd7a8b3f2710eee76227b5f1e77f530",
+    "title": "BABYLON [48NORMAL]",
+    "artist": "SHIKI",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=179&event=60",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/BABYLON.zip",
+    "transpose": 0,
+    "notes": 778,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "5",
+    "sha256": "8f94fdbb6112d02d5968e3686c0ed1925c50f3cd54a8951315d0148a997b5af8",
+    "title": "Candy & Baguette [48key]",
+    "artist": "sound piercer / mov : deadblue238",
+    "chart": "",
+    "url": "https://onedrive.live.com/?id=5B1100ED3D6AD60B%21146&cid=5B1100ED3D6AD60B",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/candy_n_baguette.zip",
+    "transpose": 0,
+    "notes": 639,
+    "comment": "",
+    "update": "2019-02-28"
+  },
+  {
+    "level": "6",
+    "sha256": "5486789eb9f5a0ea1638274c1831284c09f00ace40339e6450b899312364a6e3",
+    "title": "ELECTRiCiTY [48_light]",
+    "artist": "NIKITA / misokabocha",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=96",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/electricity_ogg.zip",
+    "transpose": 0,
+    "notes": 636,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "098e5d89d571747cac5967d1a6eab197370003ddb5a3f9e355ffe31cfc9d2928",
+    "title": "ELECTRiCiTY [48_real]",
+    "artist": "NIKITA / misokabocha",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=96",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/electricity_ogg.zip",
+    "transpose": 0,
+    "notes": 922,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "5f1cf10db93a316153960d61fdce3d2abd565c388ef684a456f28222856fd7c5",
+    "title": "WIND HEART [48key Another]",
+    "artist": "BMS/G-Y MUSIC/inoue⊿",
+    "chart": "exclusion",
+    "url": "http://wayback.archive.org/web/20120406093520/http://gyaon.sakura.ne.jp/bms/gy_WindHeart.rar",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/gy_WindHeart.zip",
+    "transpose": 0,
+    "notes": 1186,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "7",
+    "sha256": "f7b50a34474296c1f4a832ffcac875505bd07777cf77660d7b5f9c4b88135946",
+    "title": "WIND HEART [48key Normal]",
+    "artist": "BMS/G-Y MUSIC/inoue⊿",
+    "chart": "exclusion",
+    "url": "http://wayback.archive.org/web/20120406093520/http://gyaon.sakura.ne.jp/bms/gy_WindHeart.rar",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/gy_WindHeart.zip",
+    "transpose": 0,
+    "notes": 880,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "cba0555fee23267e9b3526050502bd11818159a6c8ec6c4bae5dc0b45b9808a7",
+    "title": "哀愁の旅路 [48key]",
+    "artist": "BMS/GYAON　作曲/井上⊿",
+    "chart": "exclusion",
+    "url": "http://web.archive.org/web/20121125195135/http://gyaon.sakura.ne.jp/top.html",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/g_Tabiji.zip",
+    "transpose": 0,
+    "notes": 1106,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "a39ae6b0856dda62794fd76cdbf14438f69e6ceb311f77209fba61653c69446d",
+    "title": "ラケシスと永遠の祈祷者 [48key/Another]",
+    "artist": "しーけー",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=280&event=110",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Lachesis.zip",
+    "transpose": 0,
+    "notes": 1419,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "1688f8220dd3df054ab1af4e23f032b811874a5c6ed4c1309416bc43e9189482",
+    "title": "ラケシスと永遠の祈祷者 [48key]",
+    "artist": "しーけー",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=280&event=110",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Lachesis.zip",
+    "transpose": 0,
+    "notes": 983,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "b335c92755b3c31c612d81ca7234241340897c8b1e726d71010384fdfb59d015",
+    "title": "Trane [48KEY]",
+    "artist": "MALVA.",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=123",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/MALVA_trane.zip",
+    "transpose": 0,
+    "notes": 1137,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "8037d22c5ce76d502844335d85e99f2fea00a259659d4494d36260d6c8e94ca3",
+    "title": "マージナル＊フロンティア [48key Another]",
+    "artist": "ああああ",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=430",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/marginal_ogg.zip",
+    "transpose": 0,
+    "notes": 1461,
+    "comment": "",
+    "update": "2019-03-03"
+  },
+  {
+    "level": "7",
+    "sha256": "0e27412b2f6b77aabcbeb7e343b679cf0840fb0ab8dbf783ebcb0ed66e8242fe",
+    "title": "マージナル＊フロンティア [48key Hyper]",
+    "artist": "ああああ",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=430",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/marginal_ogg.zip",
+    "transpose": 0,
+    "notes": 954,
+    "comment": "",
+    "update": "2019-03-03"
+  },
+  {
+    "level": "8",
+    "sha256": "15929e43c87c0f93c9a094759109ce4ca577e37dda346b0c0e6d5160421ebf1e",
+    "title": "Midnight o'clock [48key/Another]",
+    "artist": "mossari feat.TEA",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=221",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Midnight_oclock.zip",
+    "transpose": 0,
+    "notes": 1190,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "2400b6f6bd81fd0fe5df94f852a64ea8f4a45732fef445cfdc80f3c24c788088",
+    "title": "Midnight o'clock [48key/Real]",
+    "artist": "mossari feat.TEA",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=221",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Midnight_oclock.zip",
+    "transpose": 0,
+    "notes": 1157,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "7",
+    "sha256": "34cbc8ea20a0e72375e55d5e31a0810b648f98ad3a3373340ecaa8e0553abf9d",
+    "title": "mom [48key]",
+    "artist": "w_tre",
+    "chart": "exclusion",
+    "url": "http://nekokan.dyndns.info/~lobsak/genocide/",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/mom.zip",
+    "transpose": 0,
+    "notes": 825,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "13ad2955e374e2d309720102c67024fcf4421b61b1b05b84c298347532816020",
+    "title": "mom [48key Pianist]",
+    "artist": "w_tre",
+    "chart": "exclusion",
+    "url": "http://nekokan.dyndns.info/~lobsak/genocide/",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/mom.zip",
+    "transpose": 0,
+    "notes": 997,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "a9d5f8508f4f9b3500186298ffbef63b385900adc4e154c5a50888cd24f57f1d",
+    "title": "Re: Shinin' Queen [48key]",
+    "artist": "ねこみみ魔法使い",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=67&event=84",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/nm42_patra.zip",
+    "transpose": 0,
+    "notes": 998,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "6",
+    "sha256": "468eabd3e5c5537afdd8e72c0d00a98a60261df1c0043fa57237979b3e65cd52",
+    "title": "RAPID STRIKE [48key]",
+    "artist": "NIKITA",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=27&event=88",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/RAPID STRIKE_ogg.zip",
+    "transpose": 0,
+    "notes": 580,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "5",
+    "sha256": "28d8383bdaa7039c81621765370a55fd0bbcffaf62b51790c87471cc5e25ab1c",
+    "title": "Really run my life [48key]",
+    "artist": "eoll + Ras Vo.みちる",
+    "chart": "exclusion",
+    "url": "https://dropbox.bms.ms/u/63612044/Pandars/Ras.html",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/really_run_my_life_ogg.zip",
+    "transpose": 0,
+    "notes": 730,
+    "comment": "",
+    "update": "2019-02-28"
+  },
+  {
+    "level": "7",
+    "sha256": "9e3ff5fb120e7bf14e55ae8e4899589eec4cd30fae24252c4f5fdfd480d00c70",
+    "title": "Smiling [ANOTHER48]",
+    "artist": "櫟井唯 / 岡野佳",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=441&event=104",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Smiling_Yui_Ichii_ogg.zip",
+    "transpose": 0,
+    "notes": 1026,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "6",
+    "sha256": "7fcb8c4b2a6135cb9e0a3c9b75d41bff45e77572beb101538244ee636b717f84",
+    "title": "Stella Story [48key]",
+    "artist": "azu",
+    "chart": "exclusion",
+    "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsid=121080",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/stella_story.zip",
+    "transpose": 0,
+    "notes": 684,
+    "comment": "",
+    "update": "2019-02-28"
+  },
+  {
+    "level": "7",
+    "sha256": "d62f324ae4b868c56a9c6062e5889b1d7616f1d6ed28e8a5b8def657c59895fe",
+    "title": "Memories of Sky -2018- [48key]",
+    "artist": "yassu",
+    "chart": "exclusion",
+    "url": "https://www.dropbox.com/s/hl1c9cb5s2lrsyn/yassu_memories_2018.rar?dl=1",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/yassu_memories_2018.zip",
+    "transpose": 0,
+    "notes": 967,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "8",
+    "sha256": "efa9c57e6af5890ab4243e5b24fbbb73792f26c8b634387f39fc0a3bdf823c5f",
+    "title": "ハイ色乞語リ [48key]",
+    "artist": "daisan",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=104",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[daisan]haikara_koigatari[InimitableColors].zip",
+    "transpose": 0,
+    "notes": 1226,
+    "comment": "",
+    "update": "2019-02-27"
+  },
+  {
+    "level": "9",
+    "sha256": "fcf69a187e4751b08d94b40445720feadf75dd063c48cbb525a3cf62ee64ba78",
+    "title": "Noblesse Gloria [48A]",
+    "artist": "ダージリン",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=540",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[Lime]Noblesse Gloria.zip",
+    "transpose": 0,
+    "notes": 1176,
+    "comment": "",
+    "update": "2019-02-28"
+  },
+  {
+    "level": "7",
+    "sha256": "c701c4d8c831d515b51fd61adf3a46c81f9623222a97a0af0a3cb4915086b25f",
+    "title": "Noblesse Gloria [48N]",
+    "artist": "ダージリン",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&event=110&num=540",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[Lime]Noblesse Gloria.zip",
+    "transpose": 0,
+    "notes": 862,
+    "comment": "",
+    "update": "2019-02-28"
   }
 ]
