@@ -32,6 +32,86 @@
     "update": "2018-04-24"
   },
   {
+    "level": "8",
+    "sha256": "0d8343d9126c11e1eed55c9cfa39cfc7f8c44d57f1ead4aa4aa0bda4657c83b8",
+    "title": "AutumnBreeze [Real48 (BGA)]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/AutumnBreeze.zip",
+    "transpose": 0,
+    "notes": 847,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "260cda601023c2ae79e8e324a67db7c06ae62786bf437414b071dc9186a1c79c",
+    "title": "闘気に満ちた草原 [48KEYS]",
+    "artist": "Arranged by Y.W",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=74",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/bwroad10_ogg.zip",
+    "transpose": 0,
+    "notes": 949,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "aa8295611030239f816770356792703433c0f289d8c40a566172bb98916207a0",
+    "title": "闘気に満ちた草原 [48KEYS LIGHT]",
+    "artist": "Arranged by Y.W",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=74",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/bwroad10_ogg.zip",
+    "transpose": 0,
+    "notes": 671,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "a50de285654ae1d30f6ea51b7e3123f8f3e509a1aba03ce27c7a24a2aadfa819",
+    "title": "Canon (blazing summer mix) [48key Another]",
+    "artist": "上杉うた with 星明",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=54",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/canon_r_ogg.zip",
+    "transpose": 0,
+    "notes": 1098,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "bdd83e8e9875894a2ba341f06c7247f07f9b42fbf3287190e4cbc2a18861ecd7",
+    "title": "Canon (blazing summer mix) [48key Normal]",
+    "artist": "上杉うた with 星明",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=54",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/canon_r_ogg.zip",
+    "transpose": 0,
+    "notes": 773,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
     "level": "10",
     "sha256": "d18d90525012ed84c835688da3eef4765b375548fa26808ce50dd0cddeff73a3",
     "title": "サーカス・ギャロップ [normal48]",
@@ -43,7 +123,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/cicus-md.zip",
     "transpose": 0,
-    "notes": 2931,
+    "notes": 2376,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -240,6 +320,22 @@
     "update": "2018-04-24"
   },
   {
+    "level": "3",
+    "sha256": "04a2ca00247d20f3757c75e984ca856d3c41dbf8148b47a20375509edd22cadd",
+    "title": "荒野の果てへ [48key/Beginner]",
+    "artist": "G-Y",
+    "chart": "exclusion",
+    "url": "http://web.archive.org/web/20121125195135/http://gyaon.sakura.ne.jp/top.html",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/gy_waOP_ogg.zip",
+    "transpose": 0,
+    "notes": 288,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
     "level": "8",
     "sha256": "242c24a8c5cce73a6f8b74520e3943574a8f09845e5a8df4678067312faa87e7",
     "title": "ブランデンブルク協奏曲 第3番 ト長調 [24k-double]",
@@ -331,7 +427,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/IKAROS.zip",
     "transpose": 0,
-    "notes": 740,
+    "notes": 739,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -347,7 +443,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Iolitia.zip",
     "transpose": 0,
-    "notes": 734,
+    "notes": 733,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -363,7 +459,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/jadestar.zip",
     "transpose": 0,
-    "notes": 803,
+    "notes": 802,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -411,7 +507,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Louvreur.zip",
     "transpose": 0,
-    "notes": 752,
+    "notes": 718,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -427,7 +523,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Louvreur.zip",
     "transpose": 0,
-    "notes": 560,
+    "notes": 559,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -443,7 +539,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Lastscape.zip",
     "transpose": 0,
-    "notes": 457,
+    "notes": 438,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -459,7 +555,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Little_Snowizard.zip",
     "transpose": 0,
-    "notes": 1006,
+    "notes": 959,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -475,9 +571,57 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Little_Snowizard.zip",
     "transpose": 0,
-    "notes": 1127,
+    "notes": 1080,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "3",
+    "sha256": "dd956db47a15ba55cff1b2be49316049c46f8dbdb7ec8577476744392dd5409c",
+    "title": "Daydream [48key]",
+    "artist": "○△□",
+    "chart": "exclusion",
+    "url": "http://toriaezu-hp.sakura.ne.jp/index.html",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/mar_panyaD_ogg.zip",
+    "transpose": 0,
+    "notes": 332,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "a589a96cf22e69578c5f614519187680b801cc7a30ec2181669be94b54893992",
+    "title": "Night Queen [24key Double]",
+    "artist": "Aquarestaream",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?id=BC9BDB4C079F4096%21108&cid=BC9BDB4C079F4096",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/night_queen_bms.zip",
+    "transpose": 0,
+    "notes": 1663,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "98f44d0ce7fc4535b07e79e5dd72c1333084872a02f8d5f9a9b8f0eca8e75227",
+    "title": "Night Queen [24key Double Light]",
+    "artist": "Aquarestaream",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?id=BC9BDB4C079F4096%21108&cid=BC9BDB4C079F4096",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/night_queen_bms.zip",
+    "transpose": 0,
+    "notes": 1095,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "8",
@@ -494,6 +638,38 @@
     "notes": 732,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "5",
+    "sha256": "5508febf02d3ca5669a60df5ec33f0a8ca5c748648985f5317eaad4de9207af5",
+    "title": "道しるべ [48key]",
+    "artist": "pastel white / ケモノ☆ラバーズ",
+    "chart": "exclusion",
+    "url": "http://kbwnk.net/top.htm",
+    "tags": [
+      "BMSSP2006"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/pw_michi_mq.zip",
+    "transpose": 0,
+    "notes": 567,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "c82ff95bacff5b5c8ae4ee0e34f72c3f276580736588e319a6fedfa59bb9c636",
+    "title": "Quickening 2 the RED [48key]",
+    "artist": "Loki-mitsu + Mentalstock",
+    "chart": "exclusion",
+    "url": "http://loki-okiba.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/q2r.zip",
+    "transpose": 0,
+    "notes": 1248,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "9",
@@ -528,6 +704,54 @@
     "update": "2018-04-24"
   },
   {
+    "level": "6",
+    "sha256": "441a9b50607a511d6147d4a31cd4f5d490a8a62ece3b4f2f9429b7a39704bb4e",
+    "title": "探し物 [48key]",
+    "artist": "onoken",
+    "chart": "exclusion",
+    "url": "http://web.archive.org/web/20070111193502/www107.sakura.ne.jp/~onoken/htmls/bms.html",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/sagasimono.zip",
+    "transpose": 0,
+    "notes": 700,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "982b7ad3acef2548d10dce1dc3fa2fc499f1b8e973eb4888f83ad5fae9760520",
+    "title": "SOLROS [ANOTHER48]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/SOLROS.zip",
+    "transpose": 0,
+    "notes": 1142,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "2e555e4879aac1d7a40b2cde816f1b70cbfc8c53f333bdbd50384f70a452fe19",
+    "title": "SOLROS [NORMAL48]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/SOLROS.zip",
+    "transpose": 0,
+    "notes": 588,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
     "level": "4",
     "sha256": "09e4958c340b6518f5b596da341ba2007ce6a840d8c8c8d8b796d7e20fea5461",
     "title": "それは、遠い夏の日 [24Key Double]",
@@ -539,7 +763,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/sorenatu.zip",
     "transpose": 0,
-    "notes": 290,
+    "notes": 289,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -587,7 +811,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/TM2_flowers.zip",
     "transpose": 0,
-    "notes": 1200,
+    "notes": 1195,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -619,9 +843,89 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/TM2_hannival.zip",
     "transpose": 4,
-    "notes": 634,
+    "notes": 630,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "9",
+    "sha256": "6d0b5bd75d1092b442437d75df13f7b90be48661bbd3775a8e9ad113ab6dc0f0",
+    "title": "Blooming [48k]",
+    "artist": "Trish",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=91",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Trish_Blooming_wav.zip",
+    "transpose": 0,
+    "notes": 1163,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "5cd36859cb3b666d9e8fc542d2cbd708884e443f488b25c4c8de02e9960ce222",
+    "title": "Blooming [48k-light]",
+    "artist": "Trish",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=91",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Trish_Blooming_wav.zip",
+    "transpose": 0,
+    "notes": 929,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "650e2392aa3f7006f37f57b47a16aedeab7dd43ee871a5618d166d6f947d4216",
+    "title": "風の塔 [48KEYS HYPER]",
+    "artist": "しも fw. hapi⇒",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=198&event=74",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/wind_bms_ogg.zip",
+    "transpose": 0,
+    "notes": 1196,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "2549e3541ee8b56a646ecae251fc4d1bda0c3b3d42f3819da88865289fa8cc0f",
+    "title": "Halcyon [48key EXTRA]",
+    "artist": "xi",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=237&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/xi_halcyon_bms_ogg.zip",
+    "transpose": 0,
+    "notes": 1440,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "47b899c4426d7c7b0437b494265bc497cdaffa865e9f7b9449e2d1948ea8a02f",
+    "title": "Halcyon [48key LIGHT]",
+    "artist": "xi",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=237&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/xi_halcyon_bms_ogg.zip",
+    "transpose": 0,
+    "notes": 1010,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "4",
@@ -638,6 +942,22 @@
     "notes": 272,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "6",
+    "sha256": "37f9d6bef6925949f2d5adc222b4229efaef88fb7822af27a67b5a1cb998e942",
+    "title": "orange tea [48key/Normal]",
+    "artist": "Ym1024",
+    "chart": "exclusion",
+    "url": "http://yellowmapleleaf.com/",
+    "tags": [
+      "BMSSP2009"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ym14_orange_ogg.zip",
+    "transpose": 0,
+    "notes": 741,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "6",
@@ -688,6 +1008,70 @@
     "update": "2018-04-24"
   },
   {
+    "level": "7",
+    "sha256": "1ea10abf538069c4396ffb2021c6c48e4dffc63ed400a99de0f5500693082f2e",
+    "title": "Cinderella Story [48key]",
+    "artist": "adumac",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=60",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Cinderella_Story.zip",
+    "transpose": 0,
+    "notes": 1027,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "8d8b651f804989f6f0837bef059d3c23f098ea76385217cef9efa5f97f95839e",
+    "title": "Altale [48key Normal]",
+    "artist": "削除",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=150&event=96",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Sakuzyo_Altale.zip",
+    "transpose": 0,
+    "notes": 591,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "b4cfe6fb567aabbccbca84412fa01c78a1b54ea26d948ed0e7b3071582e141d0",
+    "title": "Divinity Garden [48key]",
+    "artist": "daisan",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=96",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/DivinityGarden.zip",
+    "transpose": 0,
+    "notes": 1130,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "e25b8eee735f5c91d139ec77c923dedb0fac94b14df755c9f0e9c30538f106ff",
+    "title": "Ophelia [48key]",
+    "artist": "Lime",
+    "chart": "exclusion",
+    "url": "http://kanki2.net/index.html",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Ophelia.zip",
+    "transpose": 0,
+    "notes": 758,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
     "level": "8",
     "sha256": "c772ed6bc0fef2dea4011e65064fbf63fb76bd27874493d13be0d43be5b9200b",
     "title": "IRREPLACEBLE THINGS [24key/Double]",
@@ -734,6 +1118,38 @@
     "notes": 726,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "10",
+    "sha256": "2dc30454ea100ab7c234517b7a25b39f65ddb43bb463266b08ff9a4caca09ab1",
+    "title": "千年女王",
+    "artist": "しらいし",
+    "chart": "exclusion",
+    "url": "http://skydrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/sq.zip",
+    "transpose": 0,
+    "notes": 2200,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "9da4307617203f1f245e67ddb8e50f2e17ff0bd819488c849d02ef9958d4db4d",
+    "title": "千年女王 [Light]",
+    "artist": "しらいし",
+    "chart": "exclusion",
+    "url": "http://skydrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/sq.zip",
+    "transpose": 0,
+    "notes": 1670,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "4",
@@ -795,9 +1211,25 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Fakeover.zip",
     "transpose": 0,
-    "notes": 1013,
+    "notes": 1010,
     "comment": "",
     "update": "2018-04-24"
+  },
+  {
+    "level": "8",
+    "sha256": "a883293c7a7560de1ebbee5147fd46d337d044b3518f8f5bf142e50dd4e840c5",
+    "title": "Flavor [48key]",
+    "artist": "mommy",
+    "chart": "exclusion",
+    "url": "http://mommy16807.seesaa.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Flavor.zip",
+    "transpose": 0,
+    "notes": 694,
+    "comment": "",
+    "update": "2021-08-10"
   },
   {
     "level": "5",
@@ -843,7 +1275,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/her_majesty.zip",
     "transpose": 0,
-    "notes": 546,
+    "notes": 543,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -859,7 +1291,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/in_daylight.zip",
     "transpose": 0,
-    "notes": 1760,
+    "notes": 1748,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -875,7 +1307,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/in_daylight.zip",
     "transpose": 0,
-    "notes": 1338,
+    "notes": 1326,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -891,7 +1323,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/in_daylight.zip",
     "transpose": 0,
-    "notes": 895,
+    "notes": 883,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -907,7 +1339,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/kbsilent.zip",
     "transpose": 0,
-    "notes": 1581,
+    "notes": 1568,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -939,7 +1371,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/MarioPaint.zip",
     "transpose": 0,
-    "notes": 836,
+    "notes": 804,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -955,7 +1387,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/MarioPaint.zip",
     "transpose": 0,
-    "notes": 1078,
+    "notes": 1030,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -971,7 +1403,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/MarioPaint.zip",
     "transpose": 0,
-    "notes": 1323,
+    "notes": 1275,
     "comment": "",
     "update": "2018-04-24"
   },
@@ -1099,7 +1531,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/electricity_ogg.zip",
     "transpose": 0,
-    "notes": 636,
+    "notes": 599,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1115,7 +1547,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/electricity_ogg.zip",
     "transpose": 0,
-    "notes": 922,
+    "notes": 899,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1163,7 +1595,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/g_Tabiji.zip",
     "transpose": 0,
-    "notes": 1106,
+    "notes": 1103,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1179,7 +1611,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Lachesis.zip",
     "transpose": 0,
-    "notes": 1419,
+    "notes": 1278,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1195,7 +1627,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Lachesis.zip",
     "transpose": 0,
-    "notes": 983,
+    "notes": 907,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1227,7 +1659,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/marginal_ogg.zip",
     "transpose": 0,
-    "notes": 1461,
+    "notes": 1411,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1243,7 +1675,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/marginal_ogg.zip",
     "transpose": 0,
-    "notes": 954,
+    "notes": 941,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1291,7 +1723,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/mom.zip",
     "transpose": 0,
-    "notes": 825,
+    "notes": 790,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1307,7 +1739,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/mom.zip",
     "transpose": 0,
-    "notes": 997,
+    "notes": 966,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1339,7 +1771,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/RAPID STRIKE_ogg.zip",
     "transpose": 0,
-    "notes": 580,
+    "notes": 579,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1371,7 +1803,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/Smiling_Yui_Ichii_ogg.zip",
     "transpose": 0,
-    "notes": 1026,
+    "notes": 1022,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1419,7 +1851,7 @@
     ],
     "url_diff": "https://excln.github.io/sabun/24key/[daisan]haikara_koigatari[InimitableColors].zip",
     "transpose": 0,
-    "notes": 1226,
+    "notes": 1224,
     "comment": "",
     "update": "2019-03-03"
   },
@@ -1454,5 +1886,821 @@
     "notes": 862,
     "comment": "",
     "update": "2019-03-03"
+  },
+  {
+    "level": "6",
+    "sha256": "c3947774aa8872f570b80bae6ab81846c87dbce4c5c278c4829d7fa7cd1f9ddc",
+    "title": "AltMirrorBell [48key]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/AltMirrorBell.zip",
+    "transpose": 0,
+    "notes": 847,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "57f39f5da45db3f27d7862662f6600e5f0e44e8f3dfd13a470bdff742ab73a03",
+    "title": "AltMirrorBell [48key ANOTHER]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/AltMirrorBell.zip",
+    "transpose": 0,
+    "notes": 1281,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "d0b66ba4bd4aa18a4df6e2aca242e55b6fc369bad97c14eb081489b437f49eee",
+    "title": "auf Wiedersehen [48key]",
+    "artist": "adamthix",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=67&event=83",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/aufwiedersehen.zip",
+    "transpose": 0,
+    "notes": 500,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "f191b7ed1ba9a950e34194fd344015cfaaea657157c756c9fe58e362efdcf2f6",
+    "title": "BlythE:ExtenD [48KEY]",
+    "artist": "remixed celas feat.ARU",
+    "chart": "exclusion",
+    "url": "http://web.archive.org/web/20170227053727/http://creation-records.info/bms/blythe_r_ogg.rar",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/blythe_r_ogg.zip",
+    "transpose": 0,
+    "notes": 970,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "3a5ea67bbfc7d9aee61e36870ca294f505b0621ae3e01bdfd4c73b83425ca60d",
+    "title": "bathypelagic snow [48key]",
+    "artist": "maki",
+    "chart": "exclusion",
+    "url": "http://aquaseeds.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/bofxv_maki_bathypelagicsnow_ogg.zip",
+    "transpose": 0,
+    "notes": 516,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "?",
+    "sha256": "c6250819bf956124c6400434227428633a8824164ed9f43a2d426721b65dcc39",
+    "title": "Broken Hearts [48key]",
+    "artist": "eFeL (mov. SoundOnly)",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=83",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Broken Hearts.zip",
+    "transpose": 0,
+    "notes": 273,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "1326089fb96c6931babcaabd2b47c5ab23032cef0eac339b1694f4ce0debf470",
+    "title": "Against the DESTINY [48key]",
+    "artist": "FALL",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=162&event=74",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/DestinySalmon_stageLastBoss.zip",
+    "transpose": 0,
+    "notes": 1053,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "d1c06b0eaef44c7038e491f0aedcc460d031fa644b557d422ea4e99013a398c4",
+    "title": "ERIS [48KEY HARD]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ERIS.zip",
+    "transpose": 0,
+    "notes": 1193,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "86abf441f09eaae3a3d7345b3876286deab9a8ad60fba654c29db0579d0b0164",
+    "title": "ERIS [48KEY MX]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ERIS.zip",
+    "transpose": 0,
+    "notes": 1406,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "2ca2b4ca2fd191f90505dd68ef7fae37ba1db69bbc0bd037900edf509c80354e",
+    "title": "ERIS [48KEY]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ERIS.zip",
+    "transpose": 0,
+    "notes": 735,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "427c141a2873b67f2f3882a8f0000b8bf78d0a6a4a1d21f755c245060403fb9f",
+    "title": "CHRISTMAS EVE [48l]",
+    "artist": "DESKJUGGLER",
+    "chart": "exclusion",
+    "url": "https://pupuly.nekokan.dyndns.info/bms/v/16",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/eve.zip",
+    "transpose": 0,
+    "notes": 900,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "10",
+    "sha256": "b46d24b953a5735ed905db5f33f8a6d0077a7f795829b08c9d19716e53d392db",
+    "title": "CHRISTMAS EVE [48r]",
+    "artist": "DESKJUGGLER",
+    "chart": "exclusion",
+    "url": "https://pupuly.nekokan.dyndns.info/bms/v/16",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/eve.zip",
+    "transpose": 0,
+    "notes": 1122,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "705bc708cf4fe2774d6354e43647a5052701207c5af62db7a21903f8c9cd794f",
+    "title": "Flesvelka [48key]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Flesvelka.zip",
+    "transpose": 0,
+    "notes": 1099,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "fa7b52c7ab1277b26bb59e5ced8e6788b1bc4596fe3a57116968f43f528cc6d7",
+    "title": "Flesvelka [48key MX]",
+    "artist": "Grand Thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Flesvelka.zip",
+    "transpose": 0,
+    "notes": 1654,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "51ee84ae3b07636d30fd29da56ed43e72624bcc5f4da24fde5fd7f8ff3de7315",
+    "title": "FREEZING FLOWERET [48key]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Freezing.zip",
+    "transpose": 0,
+    "notes": 648,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "d5a5a95647d9db9d3150882fb61d7530ce462cef07cfd5c51ae2c1010c7a7759",
+    "title": "FREEZING FLOWERET [48key ANOTHER]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Freezing.zip",
+    "transpose": 0,
+    "notes": 923,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "ab409a7d1105edeeb1edb8505500883b351e9189212afe44ab969774b4632c68",
+    "title": "FREEZING FLOWERET [48key MX]",
+    "artist": "Grand thaw",
+    "chart": "exclusion",
+    "url": "http://www5f.biglobe.ne.jp/~careless/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Freezing.zip",
+    "transpose": 0,
+    "notes": 1259,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "fd9a900994b9b0b3a688de94da67096302ab26391152a6447e22b9e0089cf896",
+    "title": "ほっぺ [むずかしい]",
+    "artist": "mommy",
+    "chart": "exclusion",
+    "url": "http://mommy16807.seesaa.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/hoppe.zip",
+    "transpose": 0,
+    "notes": 683,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "4",
+    "sha256": "c99211fb9d58347cf3ee646d6896b07c2fc25d679eda1d2bb5860c2b8e3dd94c",
+    "title": "尻削り節 [48key]",
+    "artist": "kireji",
+    "chart": "exclusion",
+    "url": "https://colosseo.nekokan.dyndns.info/c02_shuffle/detail.php?n=11",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/kireji_enka.zip",
+    "transpose": 0,
+    "notes": 366,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "6a557e6d7ae2762866c24e14bec43132c0f200f3b0bdc7b94dc4547728e11c4c",
+    "title": "Love Hotel [48key]",
+    "artist": "mommy",
+    "chart": "exclusion",
+    "url": "http://mommy16807.seesaa.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Love_Hotel.zip",
+    "transpose": 0,
+    "notes": 1192,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "33e10082c754e13860f20b35c4bce130fcac4ff8f19355fec456371c412eda6f",
+    "title": "臨終 [48 real]",
+    "artist": "Lunatic Sounds",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=85&event=83",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/LunaticSounds_Death_ogg.zip",
+    "transpose": 0,
+    "notes": 482,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "3268f199f3e5886bc4f4bbf04c8e81adbce5a6ac2e8d25a6d8cf2efc963a303f",
+    "title": "Merry Christmas Mr.Lawrence [48-A]",
+    "artist": "sasakure.UK",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/explus/ex_revival/bms/mcml.rar",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/mcml.zip",
+    "transpose": 0,
+    "notes": 1152,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "e1a5b8b899094502a2ce08d398bd6127721a23c6970905cc17c4f004474dcfd5",
+    "title": "Merry Christmas Mr.Lawrence [48-N]",
+    "artist": "sasakure.UK",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/explus/ex_revival/bms/mcml.rar",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/mcml.zip",
+    "transpose": 0,
+    "notes": 870,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "c8fb742696cd8582550e6646c15034c1e92b92f968f2271248869326c749f6ed",
+    "title": "モノリスの園 [48KEYS]",
+    "artist": "LOKI",
+    "chart": "exclusion",
+    "url": "http://loki-okiba.net/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/monolith.zip",
+    "transpose": 0,
+    "notes": 1020,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "4714973ce2c53c94c6f69fc3aaa9c3072245078887d1c7e97b7ebd8d9ea793c1",
+    "title": "叔父貴 [48key Another]",
+    "artist": "叔父貴",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?cid=26D9698EC1CEC044&id=26D9698EC1CEC044!208",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ojiki.zip",
+    "transpose": 0,
+    "notes": 678,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "4",
+    "sha256": "bd9acb45695f2e3021c2f20287b11c57e9d0761c74f852547a5d79baa4a54e69",
+    "title": "叔父貴 [48key Normal]",
+    "artist": "叔父貴",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?cid=26D9698EC1CEC044&id=26D9698EC1CEC044!208",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ojiki.zip",
+    "transpose": 0,
+    "notes": 430,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "3fc6f021e93f6e39b0b89eaae28a09a371500f4825704a3e2afedd49585aa75f",
+    "title": "シレノ [48key]",
+    "artist": "qfeileadh",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=139&event=133",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/qfeileadh_sireno.zip",
+    "transpose": 0,
+    "notes": 705,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "ab3f234f9d31f1b12726e88a2b347762441f77829d26166218bfdcb40f01a041",
+    "title": "Qliphoth [48another]",
+    "artist": "SHIKI",
+    "chart": "exclusion",
+    "url": "http://shiki2.sakura.ne.jp/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/shiki_qliphoth_ogg.zip",
+    "transpose": 0,
+    "notes": 1061,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "14ee6433669ac56cfaaee3a323f6898b6b39aa06c6718c4f32aa2b28771629ee",
+    "title": "Qliphoth [48normal]",
+    "artist": "SHIKI",
+    "chart": "exclusion",
+    "url": "http://shiki2.sakura.ne.jp/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/shiki_qliphoth_ogg.zip",
+    "transpose": 0,
+    "notes": 590,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "cab2f8ccbc3537f9d29e2999e88d51d2b9c2213017f2de46e4ba821f6c30f705",
+    "title": "Magical Love Words [48key]",
+    "artist": "源屋feat.ユスラ",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=36",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/soundDeMP_minamotoya_bga.zip",
+    "transpose": 0,
+    "notes": 783,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "3ef5791f4ba0277fd562ed9954b0b42be24f5ee7068416d9fa467c4edf05d0d3",
+    "title": "Xecus [48key]",
+    "artist": "SHIKI/fity",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?authkey=%21AIr4v9MWBYrS9h8&id=FC95A680740CA8C9%21111&cid=FC95A680740CA8C9",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/Xecus.zip",
+    "transpose": 0,
+    "notes": 584,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "10",
+    "sha256": "5e37e51434e9467c747ec007d0bc31f0cf851f345ea8b76dff6d7b125d8c2f8a",
+    "title": "地球塔デヴォーション [48key]",
+    "artist": "tarolabo × 月雫",
+    "chart": "exclusion",
+    "url": "https://www.axfc.net/u/2051312&key=xiv",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/XIV_DVTN.zip",
+    "transpose": 0,
+    "notes": 965,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "af8e3b24a89b18b963a42ffb0422c6ae8bb35359fb1c3126e95a6dc1eaa9037a",
+    "title": "地球塔デヴォーション [48key Normal]",
+    "artist": "tarolabo × 月雫",
+    "chart": "exclusion",
+    "url": "https://www.axfc.net/u/2051312&key=xiv",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/XIV_DVTN.zip",
+    "transpose": 0,
+    "notes": 699,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "652b99d863fcd64a47dd6c95ed6188c43f8b79c78481d67d7c7e9601fd1b7fc7",
+    "title": "地球塔デヴォーション [48key Another]",
+    "artist": "tarolabo × 月雫",
+    "chart": "exclusion",
+    "url": "https://www.axfc.net/u/2051312&key=xiv",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/XIV_DVTN.zip",
+    "transpose": 0,
+    "notes": 962,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "b0411663859c49f6abf6b144b86360fe29fbfb47aa799a097dc7f9a77f63f7e8",
+    "title": "started [48key/Another]",
+    "artist": "Ym1024 feat. lamie*",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=85&event=65",
+    "tags": [
+      "GENOSIDE"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ym27_start_ogg.zip",
+    "transpose": 0,
+    "notes": 397,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "a8ec253e8e2e10acee046c042dd514e7106e4ce2f70b55753917b44dc4fa0197",
+    "title": "starless [48key]",
+    "artist": "Ym1024 feat. lamie*",
+    "chart": "exclusion",
+    "url": "http://yellowmapleleaf.com/",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ym33_starls_ogg.zip",
+    "transpose": 0,
+    "notes": 641,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "b6e854a5c62983aa8868442ed598d0bf430a60af02e2a843b4a4229ee2c8b8a4",
+    "title": "natsuyume [48key Real]",
+    "artist": "Aliesrite* (Ym1024 feat. lamie*)",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=478&event=133",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ym57_natsuyume_ogg.zip",
+    "transpose": 0,
+    "notes": 910,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "d57bf388c06fec5c3e7c62951bcb1599e3000fc425eb9997deb4bce37cc4cf4c",
+    "title": "New Windy Paradise [48key]",
+    "artist": "BELUGA",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?authkey=%21AIr4v9MWBYrS9h8&id=FC95A680740CA8C9%21111&cid=FC95A680740CA8C9",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[BELUGA] New Windy Paradise.zip",
+    "transpose": 0,
+    "notes": 616,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "4f8baf3e4c8892b9acb2b2308b8e24edb93903a0cf6e9541db41347beb6709c8",
+    "title": "tightrope city [48key]",
+    "artist": "ブースター",
+    "chart": "exclusion",
+    "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsid=78567",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[bof2010]tightrope city OGG.zip",
+    "transpose": 0,
+    "notes": 708,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "5",
+    "sha256": "5aa59920772c3329acbcf85e2e69fd3ca863ab4bcffdb381fd4fb75252e2eb1f",
+    "title": "青白くて、冷たい [48key]",
+    "artist": "kazunocobit",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=358&event=110",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[kazunocobit]aojirokute_tsumetai (ogg).zip",
+    "transpose": 0,
+    "notes": 367,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "2",
+    "sha256": "8be581d6e04165e0870e134273547baee1cea0b431da184fb4f791541c022d31",
+    "title": "青白くて、冷たい [48key/Light]",
+    "artist": "kazunocobit",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=358&event=110",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[kazunocobit]aojirokute_tsumetai (ogg).zip",
+    "transpose": 0,
+    "notes": 198,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "c868f62c984e5061e02dc57af30976e07e41e3778b705aa57ce9ab0dba2e0ea0",
+    "title": "魚群 gyo-gun [48key]",
+    "artist": "kazunocobit",
+    "chart": "exclusion",
+    "url": "https://venue.bmssearch.net/3/78",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[kazunocobit]gyo-gun.zip",
+    "transpose": 0,
+    "notes": 775,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "043ba3fbce23f97583f6c8779549dbc220e32d6ca1a81603ac54d4c461731c43",
+    "title": "marine snow [48key]",
+    "artist": "LaValse",
+    "chart": "exclusion",
+    "url": "http://web.archive.org/web/20060215101559/http://bof.nothing.sh/bof2005/LaValse_marinesnow.rar",
+    "tags": [
+      "BMSSP2006"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[LaValse]marinesnow_lq.zip",
+    "transpose": 0,
+    "notes": 907,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "9c3b90ab1d5a6275034f3d1f226d5ddf290c72ad830c8b51fb5a291cd1f7e2fa",
+    "title": "November wind [48keys]",
+    "artist": "recognize m.",
+    "chart": "exclusion",
+    "url": "https://onedrive.live.com/?authkey=%21AIr4v9MWBYrS9h8&id=FC95A680740CA8C9%21111&cid=FC95A680740CA8C9",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[recognize m.] November wind.zip",
+    "transpose": 0,
+    "notes": 912,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "3",
+    "sha256": "db0bc948cfdf9aaf522fa269f5ec8c7d749e2980993d46180208d3065b67e780",
+    "title": "眠りの花束 [48key]",
+    "artist": "tarolabo & Sakuzyo",
+    "chart": "exclusion",
+    "url": "https://twitter.com/7eaf/status/1403306084777938945",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[tarolabo & Sakuzyo]眠りの花束.zip",
+    "transpose": 0,
+    "notes": 261,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "6",
+    "sha256": "7d0b46954ca1960eaee52ed40957f5fdbd11783625d3a89e24a7abd855bc79bb",
+    "title": "眠りの花束 [48key Another]",
+    "artist": "tarolabo & Sakuzyo",
+    "chart": "exclusion",
+    "url": "https://twitter.com/7eaf/status/1403306084777938945",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[tarolabo & Sakuzyo]眠りの花束.zip",
+    "transpose": 0,
+    "notes": 456,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "005e7956e3707173a044c5bad03cea422d19592c809e171838a6992b7b6ac74d",
+    "title": "FIONA [48key Another]",
+    "artist": "w_tre",
+    "chart": "exclusion",
+    "url": "http://nekokan.dyndns.info/~lobsak/genocide/",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[w_tre]fiona.zip",
+    "transpose": 0,
+    "notes": 2017,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "3bcc53c61d7d329faad52cde1e79046ce544970901e46fe6ae56fd8a18ba9097",
+    "title": "FIONA [48key Normal]",
+    "artist": "w_tre",
+    "chart": "exclusion",
+    "url": "http://nekokan.dyndns.info/~lobsak/genocide/",
+    "tags": [
+      "GENOSIDE2018"
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[w_tre]fiona.zip",
+    "transpose": 0,
+    "notes": 1281,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "7",
+    "sha256": "3b99375553e431f0bcb13393c74b1143d11488dcf954d1ed9a0ba3a11dd4c75f",
+    "title": "Ocean Memory [48Light]",
+    "artist": "Junk",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=287&event=74",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[リア充]Ocean Memory ogg.zip",
+    "transpose": 0,
+    "notes": 651,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "9",
+    "sha256": "e318e9bea8aa1f9b2ff533bbcf11e5071529461c5e0dd3104049f4fb95cf4f2b",
+    "title": "Ocean Memory [48Rea'du]",
+    "artist": "Junk",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=287&event=74",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/[リア充]Ocean Memory ogg.zip",
+    "transpose": 0,
+    "notes": 915,
+    "comment": "",
+    "update": "2021-08-10"
+  },
+  {
+    "level": "8",
+    "sha256": "d8f143dce9b0ed87b4c7b84f13b6cfcc7f0af6f438be38b7c1837849f6a21da2",
+    "title": "ミルキーベリー・スウィートタイム [48key]",
+    "artist": "ぽんきち",
+    "chart": "exclusion",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=107&event=104",
+    "tags": [
+
+    ],
+    "url_diff": "https://excln.github.io/sabun/24key/ミルキーベリー・スウィートタイム.zip",
+    "transpose": 0,
+    "notes": 1215,
+    "comment": "",
+    "update": "2021-08-10"
   }
 ]
